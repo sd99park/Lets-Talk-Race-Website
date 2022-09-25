@@ -1,22 +1,23 @@
-import styled from "styled-components";
+import { useNavigate } from "react-router-dom";
+import rainbow from "../img/Rainbow.png";
+import "./Header.css";
+
 const Header = () => {
+  const navigate = useNavigate();
+
   return (
-    <Container>
-      <h1>This is the header</h1>
-    </Container>
+    <>
+      <div className="head-container">
+        <img src={rainbow} alt="Rainbow" style={{ height: "100px" }} />
+        <h2 onClick={() => navigate("/")} className="links">
+          To Main
+        </h2>
+        <h2 onClick={() => navigate("/About")} className="links">
+          To About
+        </h2>
+      </div>
+    </>
   );
 };
-
-const Container = styled.div`
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  min-height: 72px;
-  display: flex;
-  justify-content: center;
-  overflow: hidden;
-  z-index: 999;
-  position: fixed;
-  align-items: center;
-`;
 
 export default Header;
