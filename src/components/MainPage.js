@@ -1,4 +1,5 @@
 import handShake from "../img/shakeHands.jpg";
+import { LoremIpsum } from "react-lorem-ipsum";
 import "./MainPage.css";
 
 const MainPage = () => {
@@ -8,7 +9,7 @@ const MainPage = () => {
         <img src={handShake} alt="HandShake" style={{ width: "100%" }} />
         <div className="textbox1">
           <h3 style={{ margin: 0 }}>Some sort of title</h3>
-          <p> THis is a paragraph that says something, but idk what</p>
+          <LoremIpsum />
         </div>
 
         <h1>Main page</h1>

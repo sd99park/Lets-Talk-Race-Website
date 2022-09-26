@@ -4,7 +4,10 @@ import Header from "./components/Header";
 import MainPage from "./components/MainPage";
 import About from "./components/About";
 import Footer from "./components/Footer";
+import Donate from "./components/Donate";
+import Register from "./components/Register";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -14,6 +17,9 @@ function App() {
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/About" element={<About />} />
+          <Route path="/Donate" element={<Donate />} />
+          <Route path="/Registration" element={<Register />} />
+          <Route path="/Contact" element={<Contact />} />
         </Routes>
         <Footer />
       </BrowserRouter>
