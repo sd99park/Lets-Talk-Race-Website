@@ -1,0 +1,13 @@
+/* .profile-container {
+  margin-left: 8cm;
+  margin-right: 8cm;
+} */
+
+.card-wrapper {
+  margin-left: 7.5cm;
+  margin-right: 7.5cm;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}

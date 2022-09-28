@@ -2,7 +2,7 @@
 import "./App.css";
 import Header from "./components/Header";
 import MainPage from "./components/MainPage";
-import About from "./components/About";
+import About from "./components/About/About";
 import Footer from "./components/Footer";
 import Donate from "./components/Donate";
 import Register from "./components/Register";
@@ -17,9 +17,9 @@ function App() {
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/About" element={<About />} />
-          <Route path="/Donate" element={<Donate />} />
           <Route path="/Registration" element={<Register />} />
           <Route path="/Contact" element={<Contact />} />
+          <Route path="/Donate" element={<Donate />} />
         </Routes>
         <Footer />
       </BrowserRouter>

@@ -21,11 +21,11 @@ const Header = () => {
         <h2 onClick={() => navigate("/Registration")} className="links">
           Class Registration
         </h2>
-        <h2 onClick={() => navigate("/Donate")} className="links">
-          Donate
-        </h2>
         <h2 onClick={() => navigate("/Contact")} className="links">
           Contact Us
+        </h2>
+        <h2 onClick={() => navigate("/Donate")} className="links">
+          Donate
         </h2>
       </div>
     </>
