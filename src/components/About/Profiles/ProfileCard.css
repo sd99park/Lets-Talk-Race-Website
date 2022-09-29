@@ -63,7 +63,7 @@
   justify-content: center;
   align-items: center;
   background-color: rgba(245 244 244);
-  width: 80%;
+  max-width: 40em;
 }
 
 .full-container {
@@ -81,8 +81,13 @@
 
 .full-name-title {
   align-items: center;
-  padding-left: 2cm;
   padding-top: 1cm;
+}
+
+@media screen and (max-width: 590px) {
+  .top-container {
+    display: inline;
+  }
 }
 
 .full-name {
@@ -110,7 +115,12 @@
   font-size: 30px;
   color: rgba(185 144 116);
   border: none;
+
   background-color: rgba(245 244 244);
+}
+
+.full-button:hover {
+  color: rgba(181 122 113);
 }
 
 .full-description {
