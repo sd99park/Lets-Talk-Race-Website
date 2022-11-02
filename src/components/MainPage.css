@@ -1,17 +1,85 @@
-.Container32 {
-  z-index: -1;
-  position: "absolute";
-  height: "100vh";
-  width: "100%";
-  position: "absolute";
-  height: "100vh";
-  width: "100%";
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3cm;
 }
 
 .textbox1 {
-  background-color: rgba(185 144 116);
+  padding: 2rem;
+  margin: auto;
+  margin-top: 2rem;
+  background-color: rgba(245 244 244);
+  max-width: 50rem;
 }
 
-/* .Background {
-  /* backgroundImage: `url(${logo})`; */
-/* background-size: "100% 100%"; */
+.main-card-container {
+  margin-left: 6cm;
+  margin-right: 6cm;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 720px) {
+  .main-card-container {
+    margin-left: 1cm;
+    margin-right: 1cm;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.main-card {
+  position: relative;
+  max-width: 300px;
+  min-height: 550px;
+  padding: 0.5rem;
+  margin: 5px;
+  background-color: rgba(245 244 244);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card1-img {
+  width: 75%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.card2-img {
+  width: 75%;
+}
+
+.card3-img {
+  width: 80%;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.main-section-button {
+  position: absolute;
+  bottom: 10px;
+  background-color: rgba(185 144 116);
+  color: rgba(51 26 18);
+  font-size: 20px;
+  padding: 5px 20px;
+  margin: 10px 0px;
+  cursor: pointer;
+  border-radius: 10px;
+  border-color: rgba(185 144 116);
+}
+
+.main-section-button:hover {
+  background-color: rgba(181 122 113);
+  border-color: rgba(181 122 113);
+}
+
+.main-card-text {
+  text-align: center;
+  padding: 10px;
+}
