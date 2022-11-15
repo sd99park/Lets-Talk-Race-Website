@@ -45,8 +45,8 @@
   border-color: rgba(185 144 116);
 }
 .card-button:hover {
-  background-color: rgba(181 122 113);
-  border-color: rgba(181 122 113);
+  background-color: rgba(160 97 48);
+  border-color: rgba(160 97 48);
 }
 
 .card-button-position {
@@ -120,7 +120,7 @@
 }
 
 .full-button:hover {
-  color: rgba(181 122 113);
+  color: rgba(160 97 48);
 }
 
 .full-description {
