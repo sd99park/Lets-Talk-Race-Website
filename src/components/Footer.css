@@ -1,3 +1,52 @@
 .footer-container {
-  background-color: rgba(181 122 113);
+  display: flex;
+  align-items: center;
+  background-color: rgba(51 26 18);
+}
+
+.foot-all-links {
+  padding: 10px 20px 10px 20px;
+}
+
+.foot-links {
+  color: rgba(185 144 116);
+  font-size: 20px;
+  font-family: "Belleza";
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.foot-links:hover {
+  color: rgba(160 97 48);
+}
+
+.foot-logo {
+  max-width: 100%;
+  height: auto;
+}
+
+.foot-button-div {
+  position: absolute;
+  right: 50px;
+}
+
+.foot-donate-button {
+  background-color: rgba(185 144 116);
+  color: rgba(51 26 18);
+  padding: 5px 20px;
+  margin: 10px 0px;
+  cursor: pointer;
+  border-radius: 10px;
+  border-color: rgba(185 144 116);
+  font-size: 25px;
+  font-family: "Belleza";
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: bold;
+}
+
+.foot-donate-button:hover {
+  background-color: rgba(160 97 48);
+  border-color: rgba(160 97 48);
 }
