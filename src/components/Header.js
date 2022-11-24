@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 import rainbow from "../img/Rainbow.png";
+import bannerLogo from "../img/BannerLogo.png";
 import Hamburger from "../img/Hamburger.png";
 import "./Header.css";
 
@@ -26,6 +27,10 @@ const Header = () => {
 
   return (
     <>
+      <link
+        href="https://fonts.googleapis.com/css?family=Montserrat"
+        rel="stylesheet"
+      ></link>
       {isNotMobile ? (
         <>
           <div className="head-container">
@@ -62,6 +67,7 @@ const Header = () => {
               alt="Rainbow"
               style={{ height: "100px" }}
             />
+
             <img
               src={Hamburger}
               onClick={() => {

@@ -1,7 +1,7 @@
 //import logo from "./logo.svg";
 import "./App.css";
 import Header from "./components/Header";
-import MainPage from "./components/MainPage";
+import MainPage from "./components/MainPage/MainPage";
 import About from "./components/About/About";
 import Footer from "./components/Footer";
 import Donate from "./components/Donate";

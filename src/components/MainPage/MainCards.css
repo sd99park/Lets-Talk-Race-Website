@@ -1,18 +1,3 @@
-.image-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 3cm;
-}
-
-.textbox1 {
-  padding: 2rem;
-  margin: auto;
-  margin-top: 2rem;
-  background-color: rgba(245 244 244);
-  max-width: 50rem;
-}
-
 .main-card-container {
   margin-left: 6cm;
   margin-right: 6cm;
