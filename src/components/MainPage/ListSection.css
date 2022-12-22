@@ -1,3 +1,20 @@
 .main-page-list {
+  background-color: rgba(245 244 244);
+  margin: 2cm;
+}
+
+.list-section-img {
   display: flex;
+  justify-content: center;
+  padding-top: 1cm;
+}
+
+.list-section-list {
+  max-width: 20cm;
+  margin: auto;
+  padding-bottom: 1cm;
+}
+
+.list-section-bullet {
+  padding: 7px;
 }
