@@ -1,1 +1,25 @@
+.main-verse-one {
+  background-color: rgb(128 76 77);
+  margin: auto;
+  max-width: 20cm;
+  border-radius: 30px;
+  margin: 2cm auto;
+}
 
+.main-verse-text {
+  font-family: "Montserrat";
+  font-size: 25px;
+  padding: 1cm;
+  text-align: center;
+}
+
+.main-verse-verse {
+  font-size: 20px;
+}
+
+.main-verse-two {
+  background-color: rgb(82 133 130);
+  margin: 2cm auto;
+  max-width: 20cm;
+  border-radius: 30px;
+}
