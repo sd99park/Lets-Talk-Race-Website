@@ -1,22 +1,17 @@
-.about-story {
-  margin-bottom: 10rem;
-}
-
 .about-profile {
-  margin-top: 10rem;
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
 }
 
 .about-verse {
   background-color: rgb(115 101 114);
   margin: auto;
-  max-width: 20cm;
-  border-radius: 30px;
+  width: 100%;
   margin: 2cm auto;
 }
 
 .about-verse-text {
   font-family: "Montserrat";
+  color: white;
   font-size: 25px;
   padding: 1cm;
   text-align: center;

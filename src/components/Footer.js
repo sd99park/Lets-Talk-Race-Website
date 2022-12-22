@@ -24,7 +24,10 @@ const Footer = () => {
           className="foot-logo"
           src={BannerLogo}
           alt="ltrLogo"
-          onClick={() => navigate("/")}
+          onClick={() => {
+            navigate("/");
+            window.scrollTo(0, 0);
+          }}
         />
 
         <div className="foot-button-div">
@@ -32,13 +35,31 @@ const Footer = () => {
             Donate
           </button>
         </div>
-        <p className="foot-links" onClick={() => navigate("/About")}>
+        <p
+          className="foot-links"
+          onClick={() => {
+            navigate("/About");
+            window.scrollTo(0, 0);
+          }}
+        >
           About Us
         </p>
-        <p className="foot-links" onClick={() => navigate("/Registration")}>
+        <p
+          className="foot-links"
+          onClick={() => {
+            navigate("/Registration");
+            window.scrollTo(0, 0);
+          }}
+        >
           Sign up for a class
         </p>
-        <p className="foot-links" onClick={() => navigate("/Contact")}>
+        <p
+          className="foot-links"
+          onClick={() => {
+            navigate("/Contact");
+            window.scrollTo(0, 0);
+          }}
+        >
           Contact Us
         </p>
 

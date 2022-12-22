@@ -14,7 +14,7 @@ const ListSection = () => {
         />
       </div>
       <div className="list-section-list">
-        <h3>{constants.whatWeDoTitle}</h3>
+        <h3 className="list-section-title">{constants.whatWeDoTitle}</h3>
         <ul>
           <li className="list-section-bullet">{constants.whatWeDo1}</li>
           <li className="list-section-bullet">{constants.whatWeDo2}</li>

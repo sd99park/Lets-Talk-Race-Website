@@ -26,6 +26,7 @@
 
 .links:hover {
   color: rgba(160 97 48);
+  cursor: pointer;
 }
 
 .hamburger {
@@ -78,4 +79,12 @@
 .head-image-container {
   display: flex;
   justify-content: center;
+}
+
+.head-img {
+  height: 100px;
+}
+
+.head-img:hover {
+  cursor: pointer;
 }

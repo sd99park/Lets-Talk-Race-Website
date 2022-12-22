@@ -43,19 +43,40 @@ const Header = () => {
             <div className="head-img-container">
               <img
                 src={rainbow}
-                onClick={() => navigate("/")}
+                onClick={() => {
+                  navigate("/");
+                  window.scrollTo(0, 0);
+                }}
                 alt="Rainbow"
-                style={{ height: "100px" }}
+                className="head-img"
               />
             </div>
             <div className="nav-container">
-              <h2 onClick={() => navigate("/About")} className="links">
+              <h2
+                onClick={() => {
+                  navigate("/About");
+                  window.scrollTo(0, 0);
+                }}
+                className="links"
+              >
                 About
               </h2>
-              <h2 onClick={() => navigate("/Registration")} className="links">
+              <h2
+                onClick={() => {
+                  navigate("/Registration");
+                  window.scrollTo(0, 0);
+                }}
+                className="links"
+              >
                 Class Registration
               </h2>
-              <h2 onClick={() => navigate("/Contact")} className="links">
+              <h2
+                onClick={() => {
+                  navigate("/Contact");
+                  window.scrollTo(0, 0);
+                }}
+                className="links"
+              >
                 Contact Us
               </h2>
               <h2

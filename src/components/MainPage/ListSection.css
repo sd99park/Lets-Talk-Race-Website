@@ -10,6 +10,7 @@
 }
 
 .list-section-list {
+  font-family: "Montserrat";
   max-width: 20cm;
   margin: auto;
   padding-bottom: 1cm;
@@ -17,4 +18,8 @@
 
 .list-section-bullet {
   padding: 7px;
+}
+
+.list-section-title {
+  font-family: "Montserrat";
 }
