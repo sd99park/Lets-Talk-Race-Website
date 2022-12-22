@@ -4,11 +4,7 @@ import "./OpeningPage.css";
 const OpeningPage = () => {
   return (
     <div className="image-container">
-      <img
-        src={peacePicture}
-        alt="peacePicture"
-        style={{ width: "55%", border: "solid" }}
-      />
+      <img src={peacePicture} alt="peacePicture" style={{ width: "55%" }} />
     </div>
   );
 };

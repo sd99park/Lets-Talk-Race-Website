@@ -15,13 +15,13 @@ const MainCards = () => {
         <img src={EngageChurchPic} className="card1-img" />
         <h3>{constants.engageTitle}</h3>
         <p className="main-card-text">{constants.engageText}</p>
-        <button className="main-section-button">Do something</button>
+        <button className="main-section-button">Under Construction</button>
       </div>
       <div className="main-card">
         <img src={stratPartPic} className="card2-img" />
         <h3>{constants.partnerTitle}</h3>
         <p className="main-card-text">{constants.partnerText}</p>
-        <button className="main-section-button">Do something</button>
+        <button className="main-section-button">Under Construction</button>
       </div>
       <div className="main-card">
         <img src={ltrLogo} className="card3-img" />

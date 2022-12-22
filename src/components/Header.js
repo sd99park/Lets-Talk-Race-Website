@@ -25,6 +25,12 @@ const Header = () => {
 
   const isNotMobile = windowDimension > 768;
 
+  const openDonate = () => {
+    window.open(
+      "https://crm.bloomerang.co/HostedDonation?ApiKey=pub_85ea1511-7ae8-11ed-9ee6-0606629de7e9&WidgetId=45056"
+    );
+  };
+
   return (
     <>
       <link
@@ -52,7 +58,12 @@ const Header = () => {
               <h2 onClick={() => navigate("/Contact")} className="links">
                 Contact Us
               </h2>
-              <h2 onClick={() => navigate("/Donate")} className="donate-button">
+              <h2
+                onClick={() => {
+                  openDonate();
+                }}
+                className="donate-button"
+              >
                 Donate
               </h2>
             </div>
