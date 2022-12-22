@@ -123,7 +123,7 @@ const Header = () => {
                 <h2
                   onClick={() => {
                     setMenuIsOpen(false);
-                    navigate("/Donate");
+                    openDonate();
                   }}
                   className="mobile-links"
                 >
