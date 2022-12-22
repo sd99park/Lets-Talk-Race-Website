@@ -1,0 +1,41 @@
+.story-container {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.story-header {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Montserrat";
+}
+
+.story-one {
+  display: flex;
+  align-items: center;
+}
+
+.story-one-txt {
+  margin: 0 1rem;
+}
+
+.story-one-img {
+  padding: 10px;
+}
+
+.story-two {
+  display: flex;
+  align-items: center;
+}
+
+.story-two-txt {
+  margin: 0 1rem;
+}
+
+.story-two-img {
+  padding: 10px;
+}
+
+.story-p {
+  font-size: 18px;
+  font-family: "Montserrat";
+}
