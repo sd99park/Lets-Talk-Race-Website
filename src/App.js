@@ -6,6 +6,7 @@ import About from "./components/About/About";
 import Footer from "./components/Footer";
 import Donate from "./components/Donate";
 import Register from "./components/Register";
+import NotFound from "./components/NotFound";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Contact from "./components/Contact";
 
@@ -20,6 +21,7 @@ function App() {
           <Route path="/Registration" element={<Register />} />
           <Route path="/Contact" element={<Contact />} />
           {/* <Route path="/Donate" element={<Donate />} /> */}
+          <Route path="*" exact={true} element={<NotFound />} />
         </Routes>
         <Footer />
       </BrowserRouter>
