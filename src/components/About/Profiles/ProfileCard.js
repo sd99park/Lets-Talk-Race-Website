@@ -1,7 +1,16 @@
 import { useState } from "react";
 import "./ProfileCard.css";
 
-const ProfileCard = ({ description, name, title, image, summary }) => {
+const ProfileCard = ({
+  bio1,
+  bio2,
+  bio3,
+  bio4,
+  name,
+  title,
+  image,
+  summary,
+}) => {
   const [smallProfile, setSmallProfile] = useState(true);
 
   return (
@@ -47,7 +56,10 @@ const ProfileCard = ({ description, name, title, image, summary }) => {
                 X
               </button>
             </div>
-            <p className="full-description">{description}</p>
+            <p className="full-description">{bio1}</p>
+            <p className="full-description">{bio2}</p>
+            <p className="full-description">{bio3}</p>
+            <p className="full-description">{bio4}</p>
           </div>
         </div>
       )}

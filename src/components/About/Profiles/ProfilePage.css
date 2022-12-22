@@ -1,7 +1,8 @@
-/* .profile-container {
-  margin-left: 8cm;
-  margin-right: 8cm;
-} */
+.profile-page-title {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Montserrat";
+}
 
 .card-wrapper {
   margin-left: 7.5cm;

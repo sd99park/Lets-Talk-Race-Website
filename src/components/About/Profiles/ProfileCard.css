@@ -1,12 +1,15 @@
 .card-container {
-  max-width: 300px;
+  max-width: 400px;
   padding: 0.5rem;
+  margin: 10px;
+  background-color: rgba(245 244 244);
 }
 
 .card-img {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 15px;
 }
 
 .card-name {
@@ -59,11 +62,9 @@
   padding: 1rem;
   margin: 1rem;
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
   background-color: rgba(245 244 244);
-  max-width: 40em;
+  max-width: 80rem;
 }
 
 .full-container {
