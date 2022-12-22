@@ -24,6 +24,10 @@
   margin: 0px;
 }
 
+.links:hover {
+  color: rgba(160 97 48);
+}
+
 .hamburger {
   height: 50px;
   position: absolute;
