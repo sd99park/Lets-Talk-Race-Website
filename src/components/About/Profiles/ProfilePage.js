@@ -43,13 +43,11 @@ const ProfilePage = () => {
           summary={constants.PA_descr}
         />
         <ProfileCard
-          image={OW}
-          name={constants.OW_name}
-          title={constants.OW_title}
-          bio1={constants.OW_bio1}
-          bio2={constants.OW_bio2}
-          bio3={constants.OW_bio3}
-          summary={constants.OW_descr}
+          image={SH}
+          name={constants.SH_name}
+          title={constants.SH_title}
+          bio1={constants.SH_bio1}
+          summary={constants.SH_descr}
         />
         <ProfileCard
           image={JH}
@@ -62,11 +60,13 @@ const ProfilePage = () => {
           summary={constants.JH_descr}
         />
         <ProfileCard
-          image={SH}
-          name={constants.SH_name}
-          title={constants.SH_title}
-          bio1={constants.SH_bio1}
-          summary={constants.JH_descr}
+          image={OW}
+          name={constants.OW_name}
+          title={constants.OW_title}
+          bio1={constants.OW_bio1}
+          bio2={constants.OW_bio2}
+          bio3={constants.OW_bio3}
+          summary={constants.OW_descr}
         />
       </div>
     </>

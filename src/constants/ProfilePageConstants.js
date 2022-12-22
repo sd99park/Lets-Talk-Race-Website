@@ -1,6 +1,6 @@
 export const SP_name = "Shelley Park";
 
-export const SP_title = "The real person in charge";
+export const SP_title = "Board President";
 
 export const SP_descr =
   "Shelley Holland Park spent most of her youth as a missionary kid in Manila, Philippines. After graduating from Texas A&M University...";
@@ -10,7 +10,7 @@ export const SP_bio1 =
 
 export const DP_name = "David Park";
 
-export const DP_title = "someone";
+export const DP_title = "Executive Director";
 
 export const DP_descr =
   "In 2021, David left his 27 year career with Atmos Energy to join Shelley and pursue a calling to racial reconciliation and....";
@@ -23,7 +23,7 @@ export const DP_bio2 =
 
 export const SH_name = "Stephanie Hamm";
 
-export const SH_title = "someone else";
+export const SH_title = "Board Member";
 
 export const SH_descr =
   "Stephanie Hamm, MSW, PhD, has been teaching in the Abilene Christian University School of Social Work since 2008. ";
@@ -33,7 +33,7 @@ export const SH_bio1 =
 
 export const JH_name = "JoAnn Hummel";
 
-export const JH_title = "A person";
+export const JH_title = "Board Member";
 
 export const JH_descr =
   "JoAnn Hummel graduated from Dallas Theological Seminary with a Master of Arts degree in Theology and...";
@@ -52,7 +52,7 @@ export const JH_bio4 =
 
 export const PA_name = "Pamela Anderson";
 
-export const PA_title = "Another person";
+export const PA_title = "Board Member";
 
 export const PA_descr =
   "Raised in a family of eight children in rural Virginia, Pamela Anderson's parents instilled the importance of living a life...";
@@ -71,7 +71,7 @@ export const PA_bio4 =
 
 export const OW_name = "Oric Walker";
 
-export const OW_title = "some guy";
+export const OW_title = "Board Member";
 
 export const OW_descr =
   "Oric Walker serves as Atmos Energy Louisiana division President. He has over 26 years of experience in the natural gas industry...";
