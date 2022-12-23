@@ -11,6 +11,8 @@
 
 .about-verse-text {
   font-family: "Montserrat";
+  max-width: 30cm;
+  margin: 0 auto;
   color: white;
   font-size: 25px;
   padding: 1cm;

@@ -26,7 +26,7 @@ const MainPage = () => {
         <div className="main-verse-two">
           <p className="main-verse-text">
             “You are in me and I am in you. I pray that they also can be one in
-            us. THEN THE WORLD WILL BELIEVE THAT YOU SENT ME.”
+            us. <br /> THEN THE WORLD WILL BELIEVE THAT YOU SENT ME.”
             <p className="main-verse-verse">John 17:21</p>
           </p>
         </div>

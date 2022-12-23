@@ -1,16 +1,16 @@
 export const SP_name = "Shelley Park";
 
-export const SP_title = "Board President";
+export const SP_title = "President";
 
 export const SP_descr =
-  "Shelley Holland Park spent most of her youth as a missionary kid in Manila, Philippines. After graduating from Texas A&M University...";
+  "Shelley Holland Park spent most of her youth as a missionary kid in Manila, Philippines. After graduating from...";
 
 export const SP_bio1 =
   "Shelley Holland Park spent most of her youth as a missionary kid in Manila, Philippines. After graduating from Texas A&M University, she married David and they settled in the Dallas/Ft. Worth area. She has a background in theater and has spent most of the last 20+ years as a stay at home mom to Samuel & Jeremiah. She also has worked for Come before Winter, an international ministry to women in leadership, has served on their Leadership Team for ten years, as well as serving as the interim Executive Director from November 2020 through June 2021. She began teaching Let’s Talk Race: a Beginner’s Guide to Conversations About Race in January 2020. As a member of the racial reconciliation emerging leaders cohort under the direction of Dr. Brenda Salter McNeil, Shelley is committed to helping educate and encourage white christians to recognize, engage and advocate for their neighbors.";
 
 export const DP_name = "David Park";
 
-export const DP_title = "Executive Director";
+export const DP_title = "Vice President";
 
 export const DP_descr =
   "In 2021, David left his 27 year career with Atmos Energy to join Shelley and pursue a calling to racial reconciliation and....";
@@ -26,7 +26,7 @@ export const SH_name = "Stephanie Hamm";
 export const SH_title = "Board Member";
 
 export const SH_descr =
-  "Stephanie Hamm, MSW, PhD, has been teaching in the Abilene Christian University School of Social Work since 2008. ";
+  "Stephanie Hamm, MSW, PhD, has been teaching in the Abilene Christian University School of Social Work... ";
 
 export const SH_bio1 =
   "Stephanie Hamm, MSW, PhD, has been teaching in the Abilene Christian University School of Social Work since 2008. Her social work practice has included mental health services with women and children, primarily. Her research interests include that of race, gender, spirituality, and higher education. She is married to Scott. They have two amazing grown children, a wonderful son-in-law, and a lazy dog named Daisy. Outside of work, interests include art, reading, gardening/plants, travel, and time with family and friends. ";
@@ -74,7 +74,7 @@ export const OW_name = "Oric Walker";
 export const OW_title = "Board Member";
 
 export const OW_descr =
-  "Oric Walker serves as Atmos Energy Louisiana division President. He has over 26 years of experience in the natural gas industry...";
+  "Oric Walker serves as Atmos Energy Louisiana division President. He has over 26 years of experience in the natural...";
 
 export const OW_bio1 =
   "Oric Walker serves as Atmos Energy Louisiana division President. He has over 26 years of experience in the natural gas industry with demonstrated leadership in supervision, management, director, and vice president levels. Oric started his career with Lone Star Gas Company as a Meter Reader. He climbed through the ranks while gaining experience in operations, marketing, and public affairs. ";
