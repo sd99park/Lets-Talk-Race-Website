@@ -1,0 +1,16 @@
+.contact-header {
+  text-align: center;
+  font-size: 40px;
+}
+
+.contact-email {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.contact-phone {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 1cm;
+}

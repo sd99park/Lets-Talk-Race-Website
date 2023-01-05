@@ -8,7 +8,7 @@ import { useState } from "react";
 const About = () => {
   return (
     <>
-      <img src={headBanner} style={{ width: "100%" }} />
+      <img src={headBanner} style={{ width: "100%", marginTop: "2.8cm" }} />
       <div className="about-story">
         <Story />
       </div>

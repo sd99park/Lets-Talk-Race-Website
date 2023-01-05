@@ -54,9 +54,6 @@ const ProfilePage = () => {
           name={constants.JH_name}
           title={constants.JH_title}
           bio1={constants.JH_bio1}
-          bio2={constants.JH_bio2}
-          bio3={constants.JH_bio3}
-          bio4={constants.JH_bio4}
           summary={constants.JH_descr}
         />
         <ProfileCard
@@ -65,7 +62,6 @@ const ProfilePage = () => {
           title={constants.OW_title}
           bio1={constants.OW_bio1}
           bio2={constants.OW_bio2}
-          bio3={constants.OW_bio3}
           summary={constants.OW_descr}
         />
       </div>

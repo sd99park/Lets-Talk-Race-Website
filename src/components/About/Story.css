@@ -20,6 +20,17 @@
 
 .story-one-img {
   padding: 10px;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 10px;
+}
+
+.story-first {
+  width: 30rem;
+}
+
+.story-sec {
+  width: 25rem;
 }
 
 .story-two {
@@ -28,14 +39,45 @@
 }
 
 .story-two-txt {
-  margin: 0 1rem;
+  margin: 0 0rem;
 }
 
 .story-two-img {
-  padding: 10px;
+  padding: 100px;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 10px;
 }
 
 .story-p {
+  padding: 10px;
   font-size: 18px;
   font-family: "Montserrat";
+}
+
+@media (max-width: 900px) {
+  .story-one {
+    display: block;
+  }
+
+  .story-two {
+    display: block;
+  }
+
+  .story-one-img {
+    text-align: center;
+  }
+
+  .story-two-img {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .story-first {
+    width: 18rem;
+  }
+
+  .story-sec {
+    width: 18rem;
+  }
 }

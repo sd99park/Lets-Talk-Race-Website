@@ -1,6 +1,6 @@
 import "./Story.css";
-import unity from "../../img/unity.png";
-import hands from "../../img/hands.png";
+import actlovewalk from "../../img/actlovewalk.png";
+import worthy from "../../img/worthy.png";
 
 const Story = () => {
   return (
@@ -35,13 +35,21 @@ const Story = () => {
             </p>
           </div>
           <div className="story-one-img">
-            <img src={hands} style={{ width: "30rem" }} />
+            <img src={actlovewalk} className="story-first" />
+            <p>
+              Used with Permission.{" "}
+              <a href="ohhappydany.com">ohhappydani.com</a>
+            </p>
           </div>
         </div>
 
         <div className="story-two">
           <div className="story-two-img">
-            <img src={unity} style={{ width: "25rem" }} />
+            <img src={worthy} className="story-sec" />
+            <p>
+              Used with Permission.{" "}
+              <a href="ohhappydany.com">ohhappydani.com</a>
+            </p>
           </div>
           <div className="story-two-txt">
             <p className="story-p">

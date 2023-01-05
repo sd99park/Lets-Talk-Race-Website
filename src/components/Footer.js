@@ -19,52 +19,60 @@ const Footer = () => {
 
   return (
     <>
-      <div className="footer-container">
-        <img
-          className="foot-logo"
-          src={BannerLogo}
-          alt="ltrLogo"
-          onClick={() => {
-            navigate("/");
-            window.scrollTo(0, 0);
-          }}
-        />
+      <div className="footer-background">
+        <div className="footer-container">
+          <img
+            className="foot-logo"
+            src={BannerLogo}
+            alt="ltrLogo"
+            onClick={() => {
+              navigate("/");
+              window.scrollTo(0, 0);
+            }}
+          />
 
-        <div className="foot-button-div">
-          <button className="foot-donate-button" onClick={() => openDonate()}>
-            Donate
-          </button>
+          <div className="foot-button-div">
+            <button className="foot-donate-button" onClick={() => openDonate()}>
+              Donate
+            </button>
+          </div>
+          <p
+            className="foot-links"
+            onClick={() => {
+              navigate("/About");
+              window.scrollTo(0, 0);
+            }}
+          >
+            About Us
+          </p>
+          <p
+            className="foot-links"
+            onClick={() => {
+              navigate("/Registration");
+              window.scrollTo(0, 0);
+            }}
+          >
+            Sign up for a class
+          </p>
+          <p
+            className="foot-links"
+            onClick={() => {
+              navigate("/Contact");
+              window.scrollTo(0, 0);
+            }}
+          >
+            Contact Us
+          </p>
+
+          <p className="foot-links" onClick={() => openMailList()}>
+            Join our mailing list
+          </p>
         </div>
-        <p
-          className="foot-links"
-          onClick={() => {
-            navigate("/About");
-            window.scrollTo(0, 0);
-          }}
-        >
-          About Us
-        </p>
-        <p
-          className="foot-links"
-          onClick={() => {
-            navigate("/Registration");
-            window.scrollTo(0, 0);
-          }}
-        >
-          Sign up for a class
-        </p>
-        <p
-          className="foot-links"
-          onClick={() => {
-            navigate("/Contact");
-            window.scrollTo(0, 0);
-          }}
-        >
-          Contact Us
-        </p>
-
-        <p className="foot-links" onClick={() => openMailList()}>
-          Join our mailing list
+        <p className="footer-legal">
+          LTR Ministries, Inc. has an application pending with the Internal
+          Revenue Service to be recognized as an organization exempt under
+          Section 501(c)(3) of the Internal Revenue Code. Contributions are tax
+          deductible to the full extent permitted by law.
         </p>
       </div>
     </>

@@ -18,7 +18,7 @@ const MainPage = () => {
               language, standing before the throne and before the Lamb. They
               were wearing white robes and were holding palm branches in their
               hands.”
-              <p className="main-verse-verse">Rev. 7:9</p>
+              <p className="main-verse-verse">Revalation 7:9</p>
             </p>
           </div>
         </div>
