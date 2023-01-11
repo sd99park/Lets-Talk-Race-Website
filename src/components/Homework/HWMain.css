@@ -1,0 +1,46 @@
+.hw-main-text {
+  max-width: 50rem;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.hw-ltr-logo {
+  padding-top: 2.3cm;
+  display: flex;
+  justify-content: center;
+}
+
+.hw-mobile-container {
+  display: flex;
+  justify-content: center;
+}
+
+.hw-text-mobile {
+  width: 215px;
+}
+
+.hw-links {
+  text-decoration: underline;
+}
+
+.hw-links:hover {
+  cursor: pointer;
+  color: rgba(160 97 48);
+}
+
+.hw-back-button {
+  position: absolute;
+  left: 0;
+  top: 3cm;
+  border: none;
+  cursor: pointer;
+  appearance: none;
+  background-color: inherit;
+  border-radius: 50%;
+  padding: 0;
+  margin-left: 20px;
+}
+
+.hw-back-button:hover {
+  background-color: rgba(245 244 244);
+}

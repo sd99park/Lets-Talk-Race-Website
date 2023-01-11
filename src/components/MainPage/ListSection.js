@@ -1,6 +1,3 @@
-import * as constants from "../../constants/MainPageConstants";
-
-import diffPeople from "../../img/diffPeople.png";
 import list1 from "../../img/list1.png";
 import list2 from "../../img/list2.png";
 import list3 from "../../img/list3.png";

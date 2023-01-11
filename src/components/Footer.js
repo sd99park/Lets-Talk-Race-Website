@@ -68,12 +68,23 @@ const Footer = () => {
             Join our mailing list
           </p>
         </div>
-        <p className="footer-legal">
-          LTR Ministries, Inc. has an application pending with the Internal
-          Revenue Service to be recognized as an organization exempt under
-          Section 501(c)(3) of the Internal Revenue Code. Contributions are tax
-          deductible to the full extent permitted by law.
-        </p>
+        <div style={{ display: "flex" }}>
+          <p
+            onClick={() => {
+              navigate("/Homework");
+              window.scrollTo(0, 0);
+            }}
+            className="foot-hw"
+          >
+            Homework
+          </p>
+          <p className="footer-legal">
+            LTR Ministries, Inc. has an application pending with the Internal
+            Revenue Service to be recognized as an organization exempt under
+            Section 501(c)(3) of the Internal Revenue Code. Contributions are
+            tax deductible to the full extent permitted by law.
+          </p>
+        </div>
       </div>
     </>
   );
