@@ -38,7 +38,14 @@ const Story = () => {
             <img src={actlovewalk} className="story-first" />
             <p>
               Used with Permission.{" "}
-              <a href="ohhappydany.com">ohhappydani.com</a>
+              <a
+                onClick={() => {
+                  window.open("https://ohhappydani.com");
+                }}
+                href=""
+              >
+                ohhappydani.com
+              </a>
             </p>
           </div>
         </div>
@@ -48,7 +55,14 @@ const Story = () => {
             <img src={worthy} className="story-sec" />
             <p>
               Used with Permission.{" "}
-              <a href="ohhappydany.com">ohhappydani.com</a>
+              <a
+                onClick={() => {
+                  window.open("https://ohhappydani.com");
+                }}
+                href=""
+              >
+                ohhappydani.com
+              </a>
             </p>
           </div>
           <div className="story-two-txt">
