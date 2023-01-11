@@ -1,8 +1,25 @@
+import backImg from "../../../img/back.png";
+import ltrLogo from "../../../img/ltrLogo.png";
+import { useNavigate } from "react-router-dom";
 import "./IntroResources.css";
 
 const IntroResources = () => {
+  const navigate = useNavigate();
+
   return (
     <>
+      <div className="hw-ltr-logo">
+        <img src={ltrLogo} style={{ maxWidth: "50%" }} />
+      </div>
+      <button
+        onClick={() => {
+          navigate("/Homework");
+          window.scrollTo(0, 0);
+        }}
+        className="hw-back-button"
+      >
+        <img src={backImg} style={{ height: "70px" }} />
+      </button>
       <h1 className="intro-title">Introductory Resources</h1>
       <h1 className="intro-title">
         Please watch both of these videos before your first class:

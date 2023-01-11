@@ -3,6 +3,29 @@
   margin-bottom: 0px;
 }
 
+.hw-ltr-logo {
+  padding-top: 2.3cm;
+  display: flex;
+  justify-content: center;
+}
+
+.hw-back-button {
+  position: absolute;
+  left: 0;
+  top: 3cm;
+  border: none;
+  cursor: pointer;
+  appearance: none;
+  background-color: inherit;
+  border-radius: 50%;
+  padding: 0;
+  margin-left: 20px;
+}
+
+.hw-back-button:hover {
+  background-color: rgba(245 244 244);
+}
+
 .intro-vid {
   margin: 100px 0px 5px 00px;
   position: relative;
