@@ -79,10 +79,8 @@ const Footer = () => {
             Homework
           </p>
           <p className="footer-legal">
-            LTR Ministries, Inc. has an application pending with the Internal
-            Revenue Service to be recognized as an organization exempt under
-            Section 501(c)(3) of the Internal Revenue Code. Contributions are
-            tax deductible to the full extent permitted by law.
+            LTR Ministries, Inc. is a 501(c)3 organization. All donations are
+            tax-deductible
           </p>
         </div>
       </div>

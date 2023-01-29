@@ -1,10 +1,25 @@
 import backImg from "../../../img/back.png";
 import ltrLogo from "../../../img/ltrLogo.png";
+import notesPage from "../../../img/notesPage.pdf";
 import { useNavigate } from "react-router-dom";
 import "./IntroResources.css";
 
 const IntroResources = () => {
   const navigate = useNavigate();
+
+  const handleDownload = () => {
+    fetch("notesPage.pdf").then((response) => {
+      response.blob().then((blob) => {
+        // Creating new object of PDF file
+        const fileURL = window.URL.createObjectURL(blob);
+        // Setting various property values
+        let alink = document.createElement("a");
+        alink.href = fileURL;
+        alink.download = "notesPage.pdf";
+        alink.click();
+      });
+    });
+  };
 
   return (
     <>
@@ -40,7 +55,7 @@ const IntroResources = () => {
         ></iframe>
       </div>
       <p className="intro-video-desc">
-        Welcome video from founders Shelley & David Park.{" "}
+        Welcome video from founders Shelley & David Park
       </p>
 
       <div className="intro-vid">
@@ -53,23 +68,36 @@ const IntroResources = () => {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
         ></iframe>
-        gty
       </div>
       <p className="intro-video-desc">
         Intro video from LTR friend and pastor Steve Frissell at Bent Tree
-        Fellowship.
+        Fellowship
       </p>
 
-      <h3 className="intro-title">
+      <h3 className="intro-title" style={{ marginTop: "2cm" }}>
+        Note Taking Pages
+      </h3>
+      <p className="intro-desc">
+        Here is a pdf you can download and print to use in taking notes
+        throughout the 5 week class. This is not required, but some have found
+        it helpful. Use it only if it blesses you.
+      </p>
+      <div className="intro-button-loc">
+        <a href={notesPage} download="notes">
+          <button className="intro-download-button">Download Note Pages</button>
+        </a>
+      </div>
+
+      <h2 className="intro-intro">
         Here are books to read, movies/documentaries to watch, and people to
         follow.
-      </h3>
+      </h2>
       <p className="intro-desc">
         This is a list of recommendations from us to help you in your
         reconciliation journey. These are not required but we highly recommend
         you look into them.
       </p>
-      <h5 className="intro-books-title">BOOKS TO READ:</h5>
+      <h3 className="intro-books-title">BOOKS TO READ:</h3>
       <div>
         <p className="intro-books">
           <em>Dear White Peacemakers</em> by Osheta Moore
@@ -135,7 +163,7 @@ const IntroResources = () => {
         </p>
       </div>
 
-      <h5 className="intro-watch-title">WATCH:</h5>
+      <h3 className="intro-watch-title">WATCH:</h3>
       <div className="intro-watch-container">
         <div className="intro-watch-col">
           <p className="intro-movie">Just Mercy</p>
@@ -155,9 +183,9 @@ const IntroResources = () => {
         watch all the rest, on YouTube)
       </p>
 
-      <h5 className="intro-echo-title">
+      <h3 className="intro-echo-title">
         EXPAND YOUR ECHO CHAMBER BY FOLLOWING:
-      </h5>
+      </h3>
       <div className="intro-echo-container">
         <div className="intro-echo-col">
           <p className="intro-echo-ppl">Latasha Morrison</p>
@@ -191,6 +219,7 @@ const IntroResources = () => {
         this list of people, but it is good for us to learn to listen to voices
         who look at and see the world differently than we do
       </p>
+      <div style={{ marginBottom: "1cm" }} />
     </>
   );
 };

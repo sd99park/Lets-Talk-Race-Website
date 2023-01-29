@@ -10,6 +10,8 @@ import NotFound from "./components/NotFound";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Contact from "./components/Contact";
 import HWMain from "./components/Homework/HWMain";
+import Week1 from "./components/Homework/HW Pages/Week1";
+import Week2 from "./components/Homework/HW Pages/Week2";
 import IntroResources from "./components/Homework/HW Pages/IntroResources";
 
 function App() {
@@ -24,6 +26,8 @@ function App() {
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Homework" element={<HWMain />} />
           <Route path="/Homework/Intro" element={<IntroResources />} />
+          <Route path="/Homework/Week1" element={<Week1 />} />
+          <Route path="/Homework/Week2" element={<Week2 />} />
           {/* <Route path="/Donate" element={<Donate />} /> */}
           <Route path="*" exact={true} element={<NotFound />} />
         </Routes>

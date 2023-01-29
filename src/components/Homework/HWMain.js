@@ -41,7 +41,7 @@ const HWMain = () => {
           <em>{constants.headerP1Ital}</em>
           {constants.headerP1pt2}
         </p>
-        <h4>{constants.headerP2}</h4>
+        <h4 style={{ textAlign: "center" }}>{constants.headerP2}</h4>
         <p>{constants.headerP3}</p>
         <p>{constants.headerP4}</p>
         <ul>
@@ -86,7 +86,15 @@ const HWMain = () => {
             </div>
             <div>
               <div className="hw-text-mobile" style={{ marginBottom: "80px" }}>
-                <h4>{constants.mainTitle3}</h4>
+                <h4
+                  onClick={() => {
+                    navigate("/Homework/Week1");
+                    window.scrollTo(0, 0);
+                  }}
+                  className="hw-links"
+                >
+                  {constants.mainTitle3}
+                </h4>
                 <p>{constants.mainText3}</p>
               </div>
             </div>
@@ -98,7 +106,15 @@ const HWMain = () => {
             </div>
             <div>
               <div className="hw-text-mobile" style={{ marginBottom: "70px" }}>
-                <h4>{constants.mainTitle5}</h4>
+                <h4
+                  onClick={() => {
+                    navigate("/Homework/Week2");
+                    window.scrollTo(0, 0);
+                  }}
+                  className="hw-links"
+                >
+                  {constants.mainTitle5}
+                </h4>
                 <p>{constants.mainText5}</p>
               </div>
             </div>
