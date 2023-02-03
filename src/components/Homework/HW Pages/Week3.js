@@ -76,7 +76,6 @@ const Week3 = () => {
             href=""
           >
             https://www.huffingtonpost.com/good-men-project/why-its-so-hard-to-talk-to-white-people-about-racism_b_7183710.html{" "}
-            {" d"}
           </a>
         </p>
 
@@ -95,7 +94,7 @@ const Week3 = () => {
         </p>
 
         <p className="hw-obj-title">
-          Why I’m No Longer Talking to White People about Race by Reni
+          Why I'm No Longer Talking to White People about Race by Reni
           Eddo-Lodge
         </p>
         <p className="hw-obj-descr">
