@@ -1,6 +1,6 @@
 import backImg from "../../../img/back.png";
 import ltrLogo from "../../../img/ltrLogo.png";
-import week4Glos from "../../../img/week3Glos.pdf";
+import week4Glos from "../../../img/week4Glos.pdf";
 import { useNavigate } from "react-router-dom";
 import "./HwPage.css";
 

@@ -166,7 +166,15 @@ const HWMain = () => {
             </div>
             <div>
               <div className="hw-text-mobile" style={{ marginBottom: "100px" }}>
-                <h4>{constants.mainTitle11}</h4>
+                <h4
+                  className="hw-links"
+                  onClick={() => {
+                    navigate("/Homework/Week5");
+                    window.scrollTo(0, 0);
+                  }}
+                >
+                  {constants.mainTitle11}
+                </h4>
                 <p>{constants.mainText11}</p>
                 <p>{constants.mainText12}</p>
               </div>

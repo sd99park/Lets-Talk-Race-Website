@@ -14,6 +14,7 @@ import Week1 from "./components/Homework/HW Pages/Week1";
 import Week2 from "./components/Homework/HW Pages/Week2";
 import Week3 from "./components/Homework/HW Pages/Week3";
 import Week4 from "./components/Homework/HW Pages/Week4";
+import Week5 from "./components/Homework/HW Pages/Week5";
 
 import IntroResources from "./components/Homework/HW Pages/IntroResources";
 
@@ -33,6 +34,7 @@ function App() {
           <Route path="/Homework/Week2" element={<Week2 />} />
           <Route path="/Homework/Week3" element={<Week3 />} />
           <Route path="/Homework/Week4" element={<Week4 />} />
+          <Route path="/Homework/Week5" element={<Week5 />} />
           {/* <Route path="/Donate" element={<Donate />} /> */}
           <Route path="*" exact={true} element={<NotFound />} />
         </Routes>
