@@ -19,7 +19,6 @@
 }
 
 .main-card {
-  position: relative;
   max-width: 300px;
   min-height: 550px;
   padding: 0.5rem;
@@ -47,7 +46,6 @@
 }
 
 .main-section-button {
-  position: absolute;
   bottom: 10px;
   background-color: rgba(185 144 116);
   color: rgba(51 26 18);
@@ -67,4 +65,5 @@
 .main-card-text {
   text-align: center;
   padding: 10px;
+  min-height: 168px;
 }

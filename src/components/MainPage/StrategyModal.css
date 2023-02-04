@@ -1,0 +1,66 @@
+.strategy-modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.strategy-container {
+  position: relative;
+  border-style: solid;
+  border-width: 2px;
+  background-color: white;
+  max-width: 70rem;
+}
+
+.strategy-img {
+  margin: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.strategy-text {
+  font-family: "Montserrat";
+  min-width: 300px;
+  padding-left: 2cm;
+  padding-right: 2cm;
+}
+
+.strategy-close-button {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 40px;
+  color: rgba(185 144 116);
+  border: none;
+  background-color: white;
+  margin: 5px;
+}
+
+.strategy-close-button:hover {
+  color: rgba(160 97 48);
+}
+
+.strategy-button-div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.strategy-contact-button {
+  font-family: "Montserrat";
+  background-color: white;
+  border: none;
+  font-size: 30px;
+  color: rgba(185 144 116);
+}
+
+.strategy-contact-button:hover {
+  color: rgba(160 97 48);
+}
