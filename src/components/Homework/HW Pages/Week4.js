@@ -195,23 +195,6 @@ const Week4 = () => {
           </a>
         </p>
 
-        <p className="hw-obj-title">
-          The Middle Passage (explore this site, but especially look at
-          time-lapse video)
-        </p>
-        <p className="hw-obj-descr">
-          <a
-            onClick={() => {
-              window.open(
-                "https://www.slavevoyages.org/voyage/database#timelapse"
-              );
-            }}
-            href=""
-          >
-            https://www.slavevoyages.org/voyage/database#timelapse{" "}
-          </a>
-        </p>
-
         <p className="hw-obj-title">The Atlantic Slave Trade </p>
         <p className="hw-obj-descr">
           <a
@@ -320,6 +303,36 @@ const Week4 = () => {
             href=""
           >
             https://www.youtube.com/watch?v=kNw8V_Fkw28
+          </a>
+        </p>
+        <p className="hw-obj-title">
+          The Middle Passage (explore this site, but especially look at
+          time-lapse video)
+        </p>
+        <p className="hw-obj-descr">
+          <a
+            onClick={() => {
+              window.open(
+                "https://www.slavevoyages.org/voyage/database#timelapse"
+              );
+            }}
+            href=""
+          >
+            https://www.slavevoyages.org/voyage/database#timelapse{" "}
+          </a>
+        </p>
+
+        <p className="hw-obj-title">
+          Cultural Appropriation vs Appreciation (3:46 min)
+        </p>
+        <p className="hw-obj-descr">
+          <a
+            onClick={() => {
+              window.open("https://www.youtube.com/watch?v=vfAp_G735r0");
+            }}
+            href=""
+          >
+            https://www.youtube.com/watch?v=vfAp_G735r0{" "}
           </a>
         </p>
       </div>
