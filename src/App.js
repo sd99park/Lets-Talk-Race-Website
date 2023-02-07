@@ -15,10 +15,14 @@ import Week2 from "./components/Homework/HW Pages/Week2";
 import Week3 from "./components/Homework/HW Pages/Week3";
 import Week4 from "./components/Homework/HW Pages/Week4";
 import Week5 from "./components/Homework/HW Pages/Week5";
+import ReactGA from "react-ga";
 
 import IntroResources from "./components/Homework/HW Pages/IntroResources";
 
 function App() {
+  const TRACKING_ID = "G-Z5CBY9MXFF"; // YOUR_OWN_TRACKING_ID
+  ReactGA.initialize(TRACKING_ID);
+
   return (
     <>
       <BrowserRouter>

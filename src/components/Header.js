@@ -4,11 +4,13 @@ import rainbow from "../img/Rainbow.png";
 import bannerLogo from "../img/BannerLogo.png";
 import Hamburger from "../img/Hamburger.png";
 import "./Header.css";
+import useAnalyticsEventTracker from "./UseAnalyticsEventTracker";
 
 const Header = () => {
   const navigate = useNavigate();
   const [windowDimension, setWindowDimension] = useState(null);
   const [menuIsOpen, setMenuIsOpen] = useState(false);
+  const gaEventTracker = useAnalyticsEventTracker("Header");
 
   useEffect(() => {
     setWindowDimension(window.innerWidth);
@@ -82,6 +84,7 @@ const Header = () => {
               <h2
                 onClick={() => {
                   openDonate();
+                  gaEventTracker("Donate");
                 }}
                 className="donate-button"
               >
@@ -145,6 +148,7 @@ const Header = () => {
                   onClick={() => {
                     setMenuIsOpen(false);
                     openDonate();
+                    gaEventTracker("Donate");
                   }}
                   className="mobile-links"
                 >
