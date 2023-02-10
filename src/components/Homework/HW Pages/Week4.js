@@ -181,17 +181,40 @@ const Week4 = () => {
         </p>
 
         <p className="hw-obj-title">
-          Blog post from a former police officer. There are 3 letters linked at
-          the top of this page{" "}
+          A Retired White Cop's Hopeful, Practical, Unique, Incomplete
+          Perspective on Race and Law in the United States. (3 parts)
         </p>
         <p className="hw-obj-descr">
+          Part 1:
           <a
             onClick={() => {
               window.open("http://www.beecivilbalm.com/open-letters.html");
             }}
             href=""
           >
-            http://www.beecivilbalm.com/open-letters.html{" "}
+            http://www.beecivilbalm.com/open-letters.html
+          </a>
+        </p>
+        <p className="hw-obj-descr">
+          Part 2:
+          <a
+            onClick={() => {
+              window.open("http://www.beecivilbalm.com/open-letter-2.html");
+            }}
+            href=""
+          >
+            http://www.beecivilbalm.com/open-letter-2.html{" "}
+          </a>
+        </p>
+        <p className="hw-obj-descr">
+          Part 3:
+          <a
+            onClick={() => {
+              window.open("http://www.beecivilbalm.com/open-letter-3.html");
+            }}
+            href=""
+          >
+            http://www.beecivilbalm.com/open-letter-3.html{" "}
           </a>
         </p>
 
