@@ -106,11 +106,11 @@ const Contact = () => {
         </div>
         <div className="contact-form-container">
           <h2 className="contact-head">Contact Us</h2>
-          <h3 className="contact-ltr">LTR Ministries</h3>
+          <h3 className="contact-ltr">LTR Ministries, Inc.</h3>
           <div className="contact-subgroup">
             <p className="contact-title">Email: </p>
-            <a href="mailto:ltrclass@gmail.com" className="contact-email">
-              ltrclass@gmail.com
+            <a href="mailto:admin@ltrministries.com" className="contact-email">
+              admin@ltrministries.com
             </a>
           </div>
           <div className="contact-subgroup">

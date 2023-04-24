@@ -160,11 +160,11 @@ const Week2 = () => {
         <p className="hw-obj-descr">
           <a
             onClick={() => {
-              window.open("https://binged.it/2ANmbF8");
+              window.open("https://www.youtube.com/watch?v=a4mjw2cVaDY");
             }}
             href=""
           >
-            https://binged.it/2ANmbF8
+            https://www.youtube.com/watch?v=a4mjw2cVaDY
           </a>
         </p>
 
