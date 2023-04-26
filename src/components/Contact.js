@@ -24,7 +24,11 @@ const Contact = () => {
     setLastName("");
     setEmail("");
     setMessage("");
-    // sendEmail({ name: name, email: email, message: message });
+    sendEmail({
+      name: firstName + " " + lastName,
+      email: email,
+      message: message,
+    });
   };
 
   const sendEmail = (form) => {

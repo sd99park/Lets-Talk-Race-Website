@@ -5,14 +5,14 @@ export const missionStatement =
 export const engageTitle = "Engaging Churches";
 
 export const engageText =
-  "We accomplish this by engaging with predominantly white churches and offering resources and guidance as they navigate the journey of racial unity and reconciliation.";
+  "Is your church asking, “What can we do?” We partner with churches to help you begin the journey of racial reconciliation. We believe this is the work of the church and we have experience and resources to help you and your church begin this journey.";
 
 export const partnerTitle = "Strategic Partners";
 
 export const partnerText =
-  "We also partner with organizations who are in the work of racial reconciliation in the church.";
+  "We love partnering with other organizations in the work of racial reconciliation, especially in the church. To make progress, we believe we need to work together.  See our partners here. Or consider partnering with us.";
 
-export const primaryTitle = "Primary Resource";
+export const primaryTitle = "Let's Talk Race";
 
 export const primaryText =
-  "Our primary resource is the 5-week course called Let’s Talk Race: a Beginner’s Guide to Conversations about Race (LTR), which can be hosted in person or virtually. We are open and excited about finding and creating new opportunities to help meet our goal and vision.";
+  "Are you interested in having nuanced conversations about race and racism in America? Consider joining one of our 5 week classes. You can get more information and sign up here.";
