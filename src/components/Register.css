@@ -1,3 +1,80 @@
+.register-sections {
+  display: flex;
+  padding: 10px;
+}
+
 .register-container {
-  padding-top: 10rem;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 3cm;
+  text-align: center;
+}
+
+.register-header {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.register-paragraph {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.register-list-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.register-expect-list {
+  font-size: 18px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.register-important-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.register-important-title-fancy {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-family: "Lucida Handwriting";
+}
+
+.register-contact-email {
+  font-style: italic;
+  line-height: 1.5;
+}
+
+.register-rules-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.register-rules-para {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.register-rules-list {
+  font-size: 18px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.register-form {
+  padding-top: 2cm;
+  border: none;
+}
+
+.register-image {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-text {
+  max-width: 50%;
 }

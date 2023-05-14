@@ -52,7 +52,6 @@ const Week2 = () => {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
         ></iframe>
-        f
       </div>
       <p className="hw-video-desc">
         Dr. Darrell Bock from Dallas Theological Seminary discusses how to have
