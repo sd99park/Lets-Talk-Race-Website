@@ -137,7 +137,7 @@ const Week5 = () => {
           <em>Good Trouble</em> on Amazon (documentary about John Lewis)
         </p>
         <p className="hw-obj-title">
-          <em>Bookmarks</em> on Netflix (a children’s series of POC reading
+          <em>Bookmarks</em> on Netflix (a children's series of POC reading
           books written by POC, longest episode is 11 minutes)
         </p>
       </div>

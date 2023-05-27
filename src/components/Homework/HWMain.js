@@ -2,13 +2,11 @@ import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 import "./HWMain.css";
-import HWWeb from "../../img/HWImgWeb.png";
 import HWMobile from "../../img/HWImgMobile.png";
-import HWWebTest from "../../img/HWImgWebTest.png";
 import ltrLogo from "../../img/ltrLogo.png";
 import * as constants from "../../constants/HWPageConstants";
-
-import IntroResources from "./HW Pages/IntroResources";
+import HwDownloadImg from "../../img/HwDownloadImg.png";
+import ltrWorkbook from "../../img/ltrWorkbook.pdf";
 
 const HWMain = () => {
   const navigate = useNavigate();
@@ -212,8 +210,30 @@ const HWMain = () => {
           </div>
         </div>
       </div>
-
-      {/* Add conditional rendering on this part of if its mobile */}
+      <div
+        className="hw-workbook"
+        style={{
+          backgroundImage: `url(${HwDownloadImg})`,
+        }}
+      >
+        <div className="hw-workbook-spacing">
+          <p className="hw-workbook-one">
+            Click{" "}
+            <a
+              href={ltrWorkbook}
+              download="LTR Glossary Week 1"
+              className="hw-workbook-download"
+            >
+              here
+            </a>{" "}
+            to download our brand new LTR Workbook.
+          </p>
+          <p className="hw-workbook-two">
+            Feel free to print and use to take notes and document your journey
+          </p>
+        </div>
+      </div>
+      <div style={{ paddingTop: "2cm" }} />
     </>
   );
 };

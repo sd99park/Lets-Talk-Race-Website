@@ -1,6 +1,5 @@
 import backImg from "../../../img/back.png";
 import ltrLogo from "../../../img/ltrLogo.png";
-import week3Glos from "../../../img/week3Glos.pdf";
 import week3Art from "../../../img/week3Article.pdf";
 import { useNavigate } from "react-router-dom";
 import "./HwPage.css";
@@ -225,17 +224,7 @@ const Week3 = () => {
           </a>
         </p>
       </div>
-
-      <h3 className="hw-center" style={{ marginTop: "2cm" }}>
-        GLOSSARY OF TERMS:
-      </h3>
-
-      <div className="hw-button-loc">
-        <a href={week3Glos} download="LTR Glossary Week 3">
-          <button className="hw-download-button">Download Glossary</button>
-        </a>
-      </div>
-      <div style={{ marginBottom: "2cm" }} />
+      <div style={{ paddingTop: "2cm" }} />
     </>
   );
 };

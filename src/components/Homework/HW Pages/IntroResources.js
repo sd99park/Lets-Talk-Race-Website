@@ -1,25 +1,10 @@
 import backImg from "../../../img/back.png";
 import ltrLogo from "../../../img/ltrLogo.png";
-import notesPage from "../../../img/notesPage.pdf";
 import { useNavigate } from "react-router-dom";
 import "./IntroResources.css";
 
 const IntroResources = () => {
   const navigate = useNavigate();
-
-  const handleDownload = () => {
-    fetch("notesPage.pdf").then((response) => {
-      response.blob().then((blob) => {
-        // Creating new object of PDF file
-        const fileURL = window.URL.createObjectURL(blob);
-        // Setting various property values
-        let alink = document.createElement("a");
-        alink.href = fileURL;
-        alink.download = "notesPage.pdf";
-        alink.click();
-      });
-    });
-  };
 
   return (
     <>
@@ -39,10 +24,6 @@ const IntroResources = () => {
       <h1 className="intro-title">
         Please watch both of these videos before your first class:
       </h1>
-      {/* <video width="50%" preload="auto">
-        <source src={video} type="video/mp4" />
-        Your browser does not support HTML5 video.
-      </video> */}
       <div className="intro-vid">
         <iframe
           width="560"
@@ -73,20 +54,6 @@ const IntroResources = () => {
         Intro video from LTR friend and pastor Steve Frissell at Bent Tree
         Fellowship
       </p>
-
-      <h3 className="intro-title" style={{ marginTop: "2cm" }}>
-        Note Taking Pages
-      </h3>
-      <p className="intro-desc">
-        Here is a pdf you can download and print to use in taking notes
-        throughout the 5 week class. This is not required, but some have found
-        it helpful. Use it only if it blesses you.
-      </p>
-      <div className="intro-button-loc">
-        <a href={notesPage} download="notes">
-          <button className="intro-download-button">Download Note Pages</button>
-        </a>
-      </div>
 
       <h2 className="intro-intro">
         Here are books to read, movies/documentaries to watch, and people to

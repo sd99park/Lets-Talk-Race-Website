@@ -1,6 +1,5 @@
 import backImg from "../../../img/back.png";
 import ltrLogo from "../../../img/ltrLogo.png";
-import week1Glos from "../../../img/week1Glos.pdf";
 import { useNavigate } from "react-router-dom";
 import "./HwPage.css";
 
@@ -241,17 +240,7 @@ const Week1 = () => {
         Speaker: John Biewen, Center for Documentary Studies at Duke University
       </p>
       <p className="hw-sec-descr">Series: Seeing White (14 Episodes)</p>
-
-      <h3 className="hw-center" style={{ marginTop: "2cm" }}>
-        GLOSSARY OF TERMS:
-      </h3>
-
-      <div className="hw-button-loc">
-        <a href={week1Glos} download="LTR Glossary Week 1">
-          <button className="hw-download-button">Download Glossary</button>
-        </a>
-      </div>
-      <div style={{ marginBottom: "2cm" }} />
+      <div style={{ paddingTop: "2cm" }} />
     </>
   );
 };

@@ -44,3 +44,29 @@
 .hw-back-button:hover {
   background-color: rgba(245 244 244);
 }
+
+.hw-workbook {
+  min-height: 25rem;
+  width: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  margin: auto;
+}
+
+.hw-workbook-one {
+  font-family: "Book antiqua";
+  font-size: 35px;
+}
+
+.hw-workbook-two {
+  font-family: "Century Gothic";
+  font-size: 35px;
+}
+
+.hw-workbook-spacing {
+  padding: 0px 100px;
+}
