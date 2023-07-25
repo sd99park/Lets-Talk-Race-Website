@@ -6,6 +6,7 @@ import HWMobile from "../../img/HWImgMobile.png";
 import ltrLogo from "../../img/ltrLogo.png";
 import * as constants from "../../constants/HWPageConstants";
 import HwDownloadImg from "../../img/HwDownloadImg.png";
+import HwDownloadImgWords from "../../img/HwDownloadImgWords.png";
 import ltrWorkbook from "../../img/ltrWorkbook.pdf";
 
 const HWMain = () => {
@@ -39,6 +40,21 @@ const HWMain = () => {
           <em>{constants.headerP1Ital}</em>
           {constants.headerP1pt2}
         </p>
+
+        <div className="hw-download-div">
+          <a
+            href={ltrWorkbook}
+            download="LTR Workbook"
+            className="hw-workbook-download"
+          >
+            <img
+              src={HwDownloadImgWords}
+              style={{ height: "200px" }}
+              className="hw-download-img"
+            />
+          </a>
+        </div>
+
         <h4 style={{ textAlign: "center" }}>{constants.headerP2}</h4>
         <p>{constants.headerP3}</p>
         <p>{constants.headerP4}</p>
@@ -208,29 +224,6 @@ const HWMain = () => {
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div
-        className="hw-workbook"
-        style={{
-          backgroundImage: `url(${HwDownloadImg})`,
-        }}
-      >
-        <div className="hw-workbook-spacing">
-          <p className="hw-workbook-one">
-            Click{" "}
-            <a
-              href={ltrWorkbook}
-              download="LTR Glossary Week 1"
-              className="hw-workbook-download"
-            >
-              here
-            </a>{" "}
-            to download our brand new LTR Workbook.
-          </p>
-          <p className="hw-workbook-two">
-            Feel free to print and use to take notes and document your journey
-          </p>
         </div>
       </div>
       <div style={{ paddingTop: "2cm" }} />

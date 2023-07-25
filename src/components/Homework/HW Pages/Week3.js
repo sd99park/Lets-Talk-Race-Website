@@ -156,6 +156,20 @@ const Week3 = () => {
           </a>
         </p>
 
+        <p className="hw-obj-title">
+          What Happens When I Try to Talk Race with White People (3 min)
+        </p>
+        <p className="hw-obj-descr">
+          <a
+            onClick={() => {
+              window.open("https://www.youtube.com/watch?v=1SynR1NYcpo");
+            }}
+            href=""
+          >
+            https://www.youtube.com/watch?v=1SynR1NYcpo
+          </a>
+        </p>
+
         <p className="hw-obj-title">Be the Bridge (9 min)</p>
         <p className="hw-obj-descr">
           <a
@@ -221,6 +235,20 @@ const Week3 = () => {
             href=""
           >
             https://www.youtube.com/watch?v=jSsoVjTgYJ0{" "}
+          </a>
+        </p>
+
+        <p className="hw-obj-title">
+          White Fragility in the Workplace (a satire) (5 min)
+        </p>
+        <p className="hw-obj-descr">
+          <a
+            onClick={() => {
+              window.open("https://www.youtube.com/watch?v=ZPDpcYEdiOg&t");
+            }}
+            href=""
+          >
+            https://www.youtube.com/watch?v=ZPDpcYEdiOg&t
           </a>
         </p>
       </div>

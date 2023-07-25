@@ -1,6 +1,7 @@
 import backImg from "../../../img/back.png";
 import ltrLogo from "../../../img/ltrLogo.png";
 import { useNavigate } from "react-router-dom";
+import WhiteCulture from "../../../img/WhiteCulture.pdf";
 import "./HwPage.css";
 
 const Week1 = () => {
@@ -58,6 +59,8 @@ const Week1 = () => {
 
       <h2 className="hw-sec-title">CHOOSE YOUR OWN ADVENTURE</h2>
       <p className="hw-sec-descr">(choose any of the following)</p>
+
+      {/* READ */}
       <div>
         <h3 className="hw-center">READ:</h3>
         <p className="hw-obj-title">History books in America</p>
@@ -115,8 +118,18 @@ const Week1 = () => {
             [] https://relevantmagazine.com/faith/what-biblical-justice/
           </a>
         </p>
+
+        <p className="hw-obj-title">
+          List of Some Aspects of White Culture in the United States
+        </p>
+        <p className="hw-obj-descr">
+          <a href={WhiteCulture} download="AssumptionsWhiteCulture">
+            <p className="hw-obj-descr">Download Reading</p>
+          </a>
+        </p>
       </div>
 
+      {/* TAKE */}
       <div>
         <h3 className="hw-center">TAKE:</h3>
         <p className="hw-obj-title">Implicit Bias Test by Harvard</p>
@@ -149,6 +162,7 @@ const Week1 = () => {
         </p>
       </div>
 
+      {/* WATCH */}
       <div>
         <h3 className="hw-center">WATCH:</h3>
         <p className="hw-obj-title">
@@ -162,6 +176,20 @@ const Week1 = () => {
             href=""
           >
             https://youtu.be/A14THPoc4-4
+          </a>
+        </p>
+
+        <p className="hw-obj-title">
+          What is Implicit/Unconscious Bias? (3 minutes)
+        </p>
+        <p className="hw-obj-descr">
+          <a
+            onClick={() => {
+              window.open("https://www.youtube.com/watch?v=Iaan2XSw6ho");
+            }}
+            href=""
+          >
+            https://www.youtube.com/watch?v=Iaan2XSw6ho
           </a>
         </p>
 
@@ -232,8 +260,35 @@ const Week1 = () => {
             https://www.youtube.com/watch?v=aC7lbdD1hq0&t=7s
           </a>
         </p>
+
+        <p className="hw-obj-title">
+          Why Color Blindness Will NOT End Racism (6 min)
+        </p>
+        <p className="hw-obj-descr">
+          <a
+            onClick={() => {
+              window.open("https://www.youtube.com/watch?v=H4LpT9TF_ew&t");
+            }}
+            href=""
+          >
+            https://www.youtube.com/watch?v=H4LpT9TF_ew&t
+          </a>
+        </p>
+
+        <p className="hw-obj-title">Code-Switching (5 minutes)</p>
+        <p className="hw-obj-descr">
+          <a
+            onClick={() => {
+              window.open("https://www.youtube.com/watch?v=QNbdn0yuUw8");
+            }}
+            href=""
+          >
+            https://www.youtube.com/watch?v=QNbdn0yuUw8
+          </a>
+        </p>
       </div>
 
+      {/* LISTEN */}
       <h3 className="hw-center">LISTEN:</h3>
       <p className="hw-sec-descr">Podcast: Scene on Radio</p>
       <p className="hw-sec-descr">

@@ -56,6 +56,20 @@ const Week2 = () => {
         Dr. Darrell Bock from Dallas Theological Seminary discusses how to have
         difficult conversations (5 minutes)
       </p>
+      <div className="hw-vid">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/0DIBJ-ec3wU"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <p className="hw-video-desc">
+        Dr. Jemar Tisby on Guilt vs. Godly Grief (1:22 min)
+      </p>
 
       <h2 className="hw-sec-title">CHOOSE YOUR OWN ADVENTURE</h2>
       <p className="hw-sec-descr">(choose any of the following)</p>
@@ -124,6 +138,23 @@ const Week2 = () => {
             href=""
           >
             "https://www.firstcoastnews.com/amp/article/news/local/jacksonville-couple-sees-home-appraisal-jump-40-percent-after-they-remove-all-traces-of-blackness/77-c3087e8c-0c65-4fb9-8319-da82f5c0ea20?__twitter_impression=true"{" "}
+          </a>
+        </p>
+
+        <p className="hw-obj-title">
+          A Poster Child for Diversity in Science: Black Engineers Work to Fix
+          Long-Ignored Bias in Oxygen Readings
+        </p>
+        <p className="hw-obj-descr">
+          <a
+            onClick={() => {
+              window.open(
+                "https://www.statnews.com/2022/08/19/diversity-in-science-black-engineers-work-to-fix-long-ignored-bias-in-pulse-oximeters/"
+              );
+            }}
+            href=""
+          >
+            "https://www.statnews.com/2022/08/19/diversity-in-science-black-engineers-work-to-fix-long-ignored-bias-in-pulse-oximeters/"
           </a>
         </p>
       </div>
@@ -197,15 +228,32 @@ const Week2 = () => {
           </a>
         </p>
 
-        <p className="hw-obj-title">Code-Switching (5 minutes)</p>
+        <p className="hw-obj-title">
+          White-Only Suburbs: The History You Didn't Learn (10 min)
+        </p>
         <p className="hw-obj-descr">
           <a
             onClick={() => {
-              window.open("https://www.youtube.com/watch?v=QNbdn0yuUw8");
+              window.open("https://www.youtube.com/watch?v=geD6kYpGlmw");
             }}
             href=""
           >
-            https://www.youtube.com/watch?v=QNbdn0yuUw8
+            https://www.youtube.com/watch?v=geD6kYpGlmw
+          </a>
+        </p>
+
+        <p className="hw-obj-title">
+          Get Home Safely: 10 Rules of Survival from the Trinity United Church
+          of Christ (2 min)
+        </p>
+        <p className="hw-obj-descr">
+          <a
+            onClick={() => {
+              window.open("https://www.youtube.com/watch?v=wqJ-psD9vJw");
+            }}
+            href=""
+          >
+            https://www.youtube.com/watch?v=wqJ-psD9vJw
           </a>
         </p>
       </div>

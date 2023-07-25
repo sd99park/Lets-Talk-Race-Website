@@ -70,3 +70,15 @@
 .hw-workbook-spacing {
   padding: 0px 100px;
 }
+
+.hw-download-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hw-download-img:hover {
+  border: 1px solid gray;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}

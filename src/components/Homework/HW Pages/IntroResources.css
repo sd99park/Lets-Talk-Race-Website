@@ -6,7 +6,7 @@
 .intro-intro {
   text-align: center;
   margin-bottom: 0px;
-  margin-top: 3cm;
+  margin-top: 2cm;
 }
 
 .hw-ltr-logo {
@@ -127,4 +127,21 @@
 
 .intro-download-button:hover {
   background-color: rgba(160 97 48);
+}
+
+.hw-intro-workbook-spacing {
+  padding: 0px 100px;
+}
+
+.hw-intro-download-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2cm;
+}
+
+.hw-intro-download-img:hover {
+  border: 1px solid gray;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }

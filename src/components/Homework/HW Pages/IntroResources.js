@@ -1,7 +1,9 @@
 import backImg from "../../../img/back.png";
 import ltrLogo from "../../../img/ltrLogo.png";
 import { useNavigate } from "react-router-dom";
+import HwDownloadImgWords from "../../../img/HwDownloadImgWords.png";
 import "./IntroResources.css";
+import ltrWorkbook from "../../../img/ltrWorkbook.pdf";
 
 const IntroResources = () => {
   const navigate = useNavigate();
@@ -54,6 +56,20 @@ const IntroResources = () => {
         Intro video from LTR friend and pastor Steve Frissell at Bent Tree
         Fellowship
       </p>
+
+      <div className="hw-intro-download-div">
+        <a
+          href={ltrWorkbook}
+          download="LTR Workbook"
+          className="hw-intro-workbook-download"
+        >
+          <img
+            src={HwDownloadImgWords}
+            style={{ height: "200px" }}
+            className="hw-intro-download-img"
+          />
+        </a>
+      </div>
 
       <h2 className="intro-intro">
         Here are books to read, movies/documentaries to watch, and people to
