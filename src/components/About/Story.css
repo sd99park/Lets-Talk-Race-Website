@@ -55,6 +55,12 @@
   font-family: "Montserrat";
 }
 
+.story-img-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (max-width: 900px) {
   .story-one {
     display: block;
