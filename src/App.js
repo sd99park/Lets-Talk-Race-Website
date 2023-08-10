@@ -17,6 +17,7 @@ import Week4 from "./components/Homework/HW Pages/Week4";
 import Week5 from "./components/Homework/HW Pages/Week5";
 
 import IntroResources from "./components/Homework/HW Pages/IntroResources";
+import ClassPrework from "./components/Homework/HW Pages/ClassPrework";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Homework" element={<HWMain />} />
           <Route path="/Homework/Intro" element={<IntroResources />} />
+          <Route path="/Homework/Prework" element={<ClassPrework />} />
           <Route path="/Homework/Week1" element={<Week1 />} />
           <Route path="/Homework/Week2" element={<Week2 />} />
           <Route path="/Homework/Week3" element={<Week3 />} />

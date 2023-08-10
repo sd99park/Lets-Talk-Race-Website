@@ -26,8 +26,6 @@ const HWMain = () => {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  const isNotMobile = windowDimension > 768;
-
   return (
     <>
       <div className="hw-ltr-logo">
@@ -82,7 +80,7 @@ const HWMain = () => {
               <div className="hw-text-mobile" style={{ marginBottom: "85px" }}>
                 <h4
                   onClick={() => {
-                    navigate("/Homework/Intro");
+                    navigate("/Homework/Prework");
                     window.scrollTo(0, 0);
                   }}
                   className="hw-links"

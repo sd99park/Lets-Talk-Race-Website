@@ -45,6 +45,20 @@ const Week2 = () => {
         <iframe
           width="560"
           height="315"
+          src="https://www.youtube.com/embed/0DIBJ-ec3wU"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <p className="hw-video-desc">
+        Dr. Jemar Tisby on Guilt vs. Godly Grief (1:22 min)
+      </p>
+      <div className="hw-vid">
+        <iframe
+          width="560"
+          height="315"
           src="https://www.youtube.com/embed/fnCFwyjzbuw"
           title="YouTube video player"
           frameborder="0"
@@ -55,20 +69,6 @@ const Week2 = () => {
       <p className="hw-video-desc">
         Dr. Darrell Bock from Dallas Theological Seminary discusses how to have
         difficult conversations (5 minutes)
-      </p>
-      <div className="hw-vid">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/0DIBJ-ec3wU"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-      </div>
-      <p className="hw-video-desc">
-        Dr. Jemar Tisby on Guilt vs. Godly Grief (1:22 min)
       </p>
 
       <h2 className="hw-sec-title">CHOOSE YOUR OWN ADVENTURE</h2>

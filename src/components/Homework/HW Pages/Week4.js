@@ -1,6 +1,7 @@
 import backImg from "../../../img/back.png";
 import ltrLogo from "../../../img/ltrLogo.png";
 import { useNavigate } from "react-router-dom";
+import week4Prompt from "../../../img/week4Prompt.png";
 import "./HwPage.css";
 
 const Week4 = () => {
@@ -26,6 +27,9 @@ const Week4 = () => {
         Please be prepared to discuss these in your class next week.
       </h1>
       <h2 className="hw-sec-title">REQUIRED HOMEWORK:</h2>
+      <div className="hw-ltr-logo">
+        <img src={week4Prompt} style={{ maxWidth: "70%" }} />
+      </div>
       <div className="hw-vid">
         <iframe
           width="560"

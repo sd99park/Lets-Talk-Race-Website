@@ -91,3 +91,9 @@
 .hw-download-button:hover {
   background-color: rgba(160 97 48);
 }
+
+.hw-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

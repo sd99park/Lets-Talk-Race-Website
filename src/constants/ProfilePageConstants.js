@@ -39,8 +39,7 @@ export const JH_descr =
   "JoAnn Hummel graduated from Dallas Theological Seminary with a Master of Arts degree in Theology and...";
 
 export const JH_bio1 =
-  "JoAnn Hummel graduated from Dallas Theological Seminary with a Master of Arts degree in Theology and Christian Education. She will graduate in December 2022 with a Doctor of Transformational Leadership degree from Bakke Graduate University. In June 2023, JoAnn will celebrate 30 years on the pastoral team at Bent Tree Bible Fellowship in Carrollton, Texas. A gifted communicator, JoAnn speaks with humor, sensitivity, and insight into the Scriptures and is passionate about helping people experience the abundant life found only in Jesus Christ. In addition to local church leadership and preaching, JoAnn has traveled widely to train existing and emerging church leaders around the world. JoAnn envisions people coming into a deep knowing of Jesus’ love for them and through them as the Holy Spirit empowers her to teach, write, mentor and pray. JoAnn is single and shares her home in Lewisville with her canine sidekick, Fergus, the Sheepadoodle.";
-
+  "JoAnn Hummel graduated from Dallas Theological Seminary with a Master of Arts degree in Theology and Christian Education. She also holds a Doctor of Transformational Leadership degree from Bakke Graduate University. In June 2023, JoAnn retired after 30 years on the pastoral team at Bent Tree Bible Fellowship in Carrollton, Texas.";
 export const PA_name = "Pamela Anderson";
 
 export const PA_title = "Board Member";
