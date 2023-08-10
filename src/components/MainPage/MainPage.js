@@ -1,6 +1,6 @@
 import OpeningPage from "./OpeningPage";
 import MainCards from "./MainCards";
-import ListSection from "./ListSection";
+import Interview from "./Interview";
 
 import { LoremIpsum } from "react-lorem-ipsum";
 import "./MainPage.css";
@@ -30,7 +30,7 @@ const MainPage = () => {
             <p className="main-verse-verse">John 17:21</p>
           </p>
         </div>
-        <ListSection />
+        <Interview />
       </div>
     </>
   );

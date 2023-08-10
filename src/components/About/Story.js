@@ -1,6 +1,7 @@
 import "./Story.css";
 import actlovewalk from "../../img/actlovewalk.png";
 import worthy from "../../img/worthy.png";
+import articleImage from "../../img/ArticleImage.jpeg";
 
 const Story = () => {
   return (
@@ -95,6 +96,22 @@ const Story = () => {
             </p>
           </div>
         </div>
+
+        <div className="story-img-center">
+          <img src={articleImage} className="" style={{ width: "40%" }} />
+        </div>
+        <p className="hw-obj-descr">
+          <a
+            onClick={() => {
+              window.open(
+                "https://religionnews.com/2023/07/19/white-texas-couple-leads-lets-talk-race-class-to-educate-churchgoers/"
+              );
+            }}
+            href=""
+          >
+            https://religionnews.com/2023/07/19/white-texas-couple-leads-lets-talk-race-class-to-educate-churchgoers/
+          </a>
+        </p>
       </div>
     </>
   );

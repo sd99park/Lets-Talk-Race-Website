@@ -1,0 +1,30 @@
+.main-page-interview {
+  background-color: rgba(245 244 244);
+  width: 60%;
+  margin: 2cm auto;
+}
+
+.interview-title {
+  text-align: center;
+  font-family: "Montserrat";
+  padding-top: 1cm;
+}
+
+.interview-vid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.5cm;
+  padding-bottom: 2cm;
+}
+
+@media screen and (max-width: 720px) {
+  .main-page-interview {
+    width: 100%;
+  }
+
+  .interview-vid {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
