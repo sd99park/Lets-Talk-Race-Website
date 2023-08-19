@@ -11,9 +11,10 @@ export const regExpect3 = "Your group will meet at the same time every week.";
 export const regExpect4 = "There will be minimal weekly homework.";
 export const regExpect5 =
   "Each class starts with 15-20 minutes of discussion, followed by 45-50 minutes of teaching, and ending with 15-20 minutes of discussion.";
-export const regExpect6 = "All classes are free of charge.";
-export const regExpect7 =
+export const regExpect6 =
   "Expect to have a safe place to ask questions and have hard conversations about race.";
+export const regExpect7 =
+  'We invite everyone to "Donate What You Can" to help cover our costs.';
 
 export const regImportantPt1 =
   "IMPORTANT: Once you have registered, please add ";

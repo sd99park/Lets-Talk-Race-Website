@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import BannerLogo from "../img/BannerLogo.png";
+import homeworkLogo from "../img/homeworkLogo.png";
 import "./Footer.css";
 
 const Footer = () => {
@@ -68,16 +69,18 @@ const Footer = () => {
             Join our mailing list
           </p>
         </div>
-        <div style={{ display: "flex" }}>
-          <p
-            onClick={() => {
-              navigate("/Homework");
-              window.scrollTo(0, 0);
-            }}
-            className="foot-hw"
-          >
-            Homework
-          </p>
+
+        <div className="footer-bottom">
+          <div className="foot-hw">
+            <img
+              src={homeworkLogo}
+              style={{ width: "15%" }}
+              onClick={() => {
+                navigate("/Homework");
+                window.scrollTo(0, 0);
+              }}
+            />
+          </div>
           <p className="footer-legal">
             LTR Ministries, Inc. is a 501(c)3 organization. All donations are
             tax-deductible

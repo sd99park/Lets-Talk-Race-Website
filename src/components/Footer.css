@@ -2,18 +2,8 @@
   background-color: rgba(51 26 18);
 }
 
-.footer-legal {
-  color: rgba(185 144 116);
-  padding: 0;
-  margin: 0 0 0 50px;
-  padding-bottom: 5px;
-  text-align: center;
-  font-family: "Montserrat";
-  font-size: 12px;
-}
-
 .footer-container {
-  padding: 0.5cm 0cm;
+  padding-top: 0.5cm;
   display: flex;
   align-items: center;
 }
@@ -90,22 +80,51 @@
   }
 
   .foot-logo {
-    display: block;
+    display: flex;
     padding-bottom: 5px;
     margin: 0 auto;
   }
-}
 
-.foot-hw {
-  color: rgba(185 144 116);
-  padding: 0;
-  margin: 0 0 0 20px;
-  padding-bottom: 5px;
-  text-align: center;
-  font-family: "Montserrat";
-  font-size: 12px;
+  .footer-bottom {
+    align-items: center;
+  }
+
+  .foot-hw {
+    position: unset;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    padding-left: 0px !important;
+    padding-bottom: 10px;
+    align-self: center;
+    margin-bottom: 10px;
+  }
 }
 
 .foot-hw:hover {
-  color: rgba(160 97 48);
+  cursor: pointer;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.foot-hw {
+  position: relative;
+  padding-left: 30px;
+  align-self: flex-start;
+  bottom: -15px;
+}
+
+.footer-legal {
+  color: rgba(185 144 116);
+  padding: 0;
+  margin: 0 auto;
+  padding-bottom: 5px;
+  align-items: center;
+  font-family: "Montserrat";
+  font-size: 12px;
 }

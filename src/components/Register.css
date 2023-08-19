@@ -78,3 +78,27 @@
 .register-text {
   max-width: 50%;
 }
+
+@media (max-width: 800px) {
+  .register-sections {
+    display: block;
+  }
+
+  .register-header,
+  .register-paragraph,
+  .register-list-title,
+  .register-rules-title,
+  .register-rules-para {
+    padding: 20px;
+    width: 190%;
+  }
+
+  .register-rules-list,
+  .register-expect-list {
+    width: 180%;
+  }
+
+  .register-important-title-fancy {
+    padding: 10px;
+  }
+}
