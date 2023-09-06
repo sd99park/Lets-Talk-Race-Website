@@ -286,6 +286,21 @@ const Week1 = () => {
             https://www.youtube.com/watch?v=QNbdn0yuUw8
           </a>
         </p>
+
+        <p className="hw-obj-title">
+          Markus Lloyd, Executive Director of Threaded walks us through the
+          multiethnic mission of God in scripture. (5 min)
+        </p>
+        <p className="hw-obj-descr">
+          <a
+            onClick={() => {
+              window.open("https://youtu.be/Cyk_3TIXDQ0");
+            }}
+            href=""
+          >
+            https://youtu.be/Cyk_3TIXDQ0
+          </a>
+        </p>
       </div>
 
       {/* LISTEN */}
