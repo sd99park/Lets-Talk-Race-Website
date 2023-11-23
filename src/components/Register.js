@@ -68,11 +68,12 @@ const Register = () => {
         </div>
 
         <iframe
-          src="https://docs.google.com/forms/d/e/1FAIpQLSebE_qNM1EAqBdcx1Ab73jI3bQUGagnNwnH7wF0ZOdjdKjxoA/viewform?embedded=true"
-          width="100%"
-          height="1600"
-          title="Registration"
-          className="register-form"
+          src="https://docs.google.com/forms/d/e/1FAIpQLSctz3eC78kOjwbnelwlKfL8895mpuKVXafOqGSNIYNogTmt6w/viewform?embedded=true"
+          width="700"
+          height="520"
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0"
         >
           Loading…
         </iframe>

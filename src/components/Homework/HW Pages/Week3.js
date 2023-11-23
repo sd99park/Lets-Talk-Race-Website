@@ -36,7 +36,7 @@ const Week3 = () => {
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
+          allowfullscreen="true"
         ></iframe>
       </div>
       <p className="hw-video-desc">
@@ -51,7 +51,7 @@ const Week3 = () => {
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
+          allowfullscreen="true"
         ></iframe>
       </div>
       <p className="hw-video-desc">
