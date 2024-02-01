@@ -255,6 +255,21 @@ const Week4 = () => {
       {/* WATCH */}
       <div>
         <h3 className="hw-center">WATCH:</h3>
+
+        <p className="hw-obj-title">
+          The Holy Post - Race in America Part 2 (26:05 min)
+        </p>
+        <p className="hw-obj-descr">
+          <a
+            onClick={() => {
+              window.open("https://www.youtube.com/watch?v=u-yun74BJEc");
+            }}
+            href=""
+          >
+            https://www.youtube.com/watch?v=u-yun74BJEc
+          </a>
+        </p>
+
         <p className="hw-obj-title">
           Recognizing past wrongs and apologizing for them is important (4
           minutes)
