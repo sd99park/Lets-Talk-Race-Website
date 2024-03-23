@@ -376,6 +376,20 @@ const Week4 = () => {
             https://www.youtube.com/watch?v=vfAp_G735r0{" "}
           </a>
         </p>
+
+        <p className="hw-obj-title">
+          Racism Experienced by Other Ethnic Groups in America (12:44 min)
+        </p>
+        <p className="hw-obj-descr">
+          <a
+            onClick={() => {
+              window.open("https://www.youtube.com/watch?v=-v8I0vlRtFY");
+            }}
+            href=""
+          >
+            https://www.youtube.com/watch?v=-v8I0vlRtFY
+          </a>
+        </p>
       </div>
       <div style={{ paddingTop: "2cm" }} />
     </>

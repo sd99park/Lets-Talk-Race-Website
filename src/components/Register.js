@@ -68,9 +68,9 @@ const Register = () => {
         </div>
 
         <iframe
-          src="https://docs.google.com/forms/d/e/1FAIpQLSctz3eC78kOjwbnelwlKfL8895mpuKVXafOqGSNIYNogTmt6w/viewform?embedded=true"
-          width="700"
-          height="520"
+          src="https://docs.google.com/forms/d/e/1FAIpQLSfOUQ7ykO40bFhYqEq_0T723I03tvBMi67xCtp4eWoBbX0K4g/viewform?embedded=true"
+          width="640"
+          height="2076"
           frameborder="0"
           marginheight="0"
           marginwidth="0"

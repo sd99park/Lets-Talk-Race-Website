@@ -1,7 +1,6 @@
 import OpeningPage from "./OpeningPage";
 import MainCards from "./MainCards";
 import Interview from "./Interview";
-import MoneyAskBanner from "../../img/MoneyAskBanner.jpg";
 
 import "./MainPage.css";
 
@@ -10,14 +9,6 @@ const MainPage = () => {
     <>
       <div className="main-page-container">
         <div style={{ paddingTop: "2.5cm" }} />
-
-        <div>
-          <img
-            src={MoneyAskBanner}
-            alt="peacePicture"
-            style={{ width: "100%" }}
-          />
-        </div>
 
         <OpeningPage />
         <div className="main-verse-one">
