@@ -1,14 +1,10 @@
 import { useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 import rainbow from "../img/Rainbow.png";
-import bannerLogo from "../img/BannerLogo.png";
-import Hamburger from "../img/Hamburger.png";
-import "./Header.css";
 
 const Header = () => {
   const navigate = useNavigate();
   const [windowDimension, setWindowDimension] = useState(null);
-  const [menuIsOpen, setMenuIsOpen] = useState(false);
 
   useEffect(() => {
     setWindowDimension(window.innerWidth);
@@ -23,7 +19,7 @@ const Header = () => {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  const isNotMobile = windowDimension > 768;
+  const isNotMobile = windowDimension > 815;
 
   const openDonate = () => {
     window.open(
@@ -31,16 +27,147 @@ const Header = () => {
     );
   };
 
+  const navToInAName = () => {
+    navigate("/About?scrollTo=TopOfPage");
+  };
+
+  // TODO: These need to scroll to specific divs
+  const navToStory = () => {
+    navigate("/About?scrollTo=Story");
+  };
+
+  const navToLeadership = () => {
+    navigate("/About?scrollTo=ProfilePage");
+  };
+
+  const navToRegistration = () => {
+    navigate("/Registration");
+    window.scrollTo(0, 0);
+  };
+
+  const NavToContact = () => {
+    navigate("/Contact");
+    window.scrollTo(0, 0);
+  };
+
   return (
     <>
-      <link
-        href="https://fonts.googleapis.com/css?family=Montserrat"
-        rel="stylesheet"
-      ></link>
       {isNotMobile ? (
-        <>
-          <div className="head-container">
-            <div className="head-img-container">
+        <div class="sticky top-0 z-40">
+          <div className="navbar bg-base-100 bg-opacity-50">
+            <div className="flex-1">
+              <img
+                src={rainbow}
+                onClick={() => {
+                  navigate("/");
+                  window.scrollTo(0, 0);
+                }}
+                alt="Rainbow"
+                className="h-28"
+              />
+            </div>
+            <div className="flex-none">
+              <ul className="menu menu-horizontal px-1 text-2xl">
+                <li>
+                  <details>
+                    <summary>About</summary>
+                    <ul className="p-2 bg-base-100 bg-opacity-50 rounded-t-none w-64">
+                      <li>
+                        <a onClick={() => navToInAName()}>What's In a Name?</a>
+                      </li>
+                      <li>
+                        <a onClick={() => navToStory()}>Story</a>
+                      </li>
+                      <li>
+                        <a onClick={() => navToLeadership()}>Our Leadership</a>
+                      </li>
+                    </ul>
+                  </details>
+                </li>
+                <li>
+                  <a onClick={() => navToRegistration()}>Class Registration</a>
+                </li>
+                <li>
+                  <a onClick={() => NavToContact()}>Contact Us</a>
+                </li>
+                <li>
+                  <a
+                    className="bg-secondary border-black hover:bg-primary"
+                    onClick={() => openDonate()}
+                  >
+                    Donate
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      ) : (
+        <div class="sticky top-0 z-40">
+          <div class="navbar bg-base-100 bg-opacity-50">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div
+                  tabindex="0"
+                  role="button"
+                  class="btn btn-ghost btn-circle"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-7 w-7"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h16M4 18h7"
+                    />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+                >
+                  <li>
+                    <details>
+                      <summary>About</summary>
+                      <ul className="p-2 bg-base-100 bg-opacity-50 rounded-t-none">
+                        <li>
+                          <a onClick={() => navToInAName()}>
+                            What's In a Name?
+                          </a>
+                        </li>
+                        <li>
+                          <a onClick={() => navToStory()}>Story</a>
+                        </li>
+                        <li>
+                          <a onClick={() => navToLeadership()}>
+                            Our Leadership
+                          </a>
+                        </li>
+                      </ul>
+                    </details>
+                  </li>
+                  <li>
+                    <a onClick={() => navToRegistration()}>
+                      Class Registration
+                    </a>
+                  </li>
+                  <li>
+                    <a onClick={() => NavToContact()}>Contact Us</a>
+                  </li>
+                  <li>
+                    <a className="border-2" onClick={() => openDonate()}>
+                      Donate
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="navbar-end">
               <img
                 src={rainbow}
                 onClick={() => {
@@ -51,109 +178,8 @@ const Header = () => {
                 className="head-img"
               />
             </div>
-            <div className="nav-container">
-              <h2
-                onClick={() => {
-                  navigate("/About");
-                  window.scrollTo(0, 0);
-                }}
-                className="links"
-              >
-                About
-              </h2>
-              <h2
-                onClick={() => {
-                  navigate("/Registration");
-                  window.scrollTo(0, 0);
-                }}
-                className="links"
-              >
-                Class Registration
-              </h2>
-              <h2
-                onClick={() => {
-                  navigate("/Contact");
-                  window.scrollTo(0, 0);
-                }}
-                className="links"
-              >
-                Contact Us
-              </h2>
-              <h2
-                onClick={() => {
-                  openDonate();
-                }}
-                className="donate-button"
-              >
-                Donate
-              </h2>
-            </div>
           </div>
-        </>
-      ) : (
-        <>
-          <div className="head-container-mobile">
-            <img
-              src={rainbow}
-              onClick={() => navigate("/")}
-              alt="Rainbow"
-              style={{ height: "100px" }}
-            />
-
-            <img
-              src={Hamburger}
-              onClick={() => {
-                if (menuIsOpen) {
-                  setMenuIsOpen(false);
-                } else {
-                  setMenuIsOpen(true);
-                }
-              }}
-              alt="Rainbow"
-              className="hamburger"
-            />
-            {menuIsOpen && (
-              <div>
-                <h2
-                  onClick={() => {
-                    setMenuIsOpen(false);
-                    navigate("/About");
-                  }}
-                  className="mobile-links"
-                >
-                  About
-                </h2>
-                <h2
-                  onClick={() => {
-                    setMenuIsOpen(false);
-                    navigate("/Registration");
-                  }}
-                  className="mobile-links"
-                >
-                  Class Registration
-                </h2>
-                <h2
-                  onClick={() => {
-                    setMenuIsOpen(false);
-                    navigate("/Contact");
-                  }}
-                  className="mobile-links"
-                >
-                  Contact Us
-                </h2>
-                <h2
-                  onClick={() => {
-                    setMenuIsOpen(false);
-                    openDonate();
-                  }}
-                  className="mobile-links"
-                >
-                  Donate
-                </h2>
-              </div>
-            )}
-          </div>
-        </>
+        </div>
       )}
     </>
   );

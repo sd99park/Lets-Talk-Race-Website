@@ -1,10 +1,9 @@
 import peacePicture from "../../img/peacePicture.png";
-import "./OpeningPage.css";
 
 const OpeningPage = () => {
   return (
-    <div className="image-container">
-      <img src={peacePicture} alt="peacePicture" style={{ width: "55%" }} />
+    <div className="flex justify-center items-center">
+      <img src={peacePicture} alt="peacePicture" className="w-2/3 lg:w-5/6" />
     </div>
   );
 };

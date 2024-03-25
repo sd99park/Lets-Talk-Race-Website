@@ -1,6 +1,6 @@
 .profile-page-title {
   text-align: center;
-  font-size: 50px;
+  font-size: 48px;
   font-family: "Montserrat";
 }
 
@@ -15,8 +15,8 @@
 
 @media screen and (max-width: 590px) {
   .card-wrapper {
-    margin-left: 1cm;
-    margin-right: 1cm;
+    margin-left: 0.5cm;
+    margin-right: 0.5cm;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
