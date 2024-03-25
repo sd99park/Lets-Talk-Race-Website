@@ -1,5 +1,3 @@
-import { useState } from "react";
-import Headshot from "../../../img/Headshot.jpeg";
 import SP from "../../../img/SP_Headshot.jpg";
 import DP from "../../../img/DP_Headshot.jpg";
 import JH from "../../../img/JH_Headshot.jpg";

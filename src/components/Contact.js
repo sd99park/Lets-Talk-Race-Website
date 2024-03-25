@@ -46,7 +46,7 @@ const Contact = () => {
 
   return (
     <div className="Testing">
-      <img src={heartbanner} style={{ width: "100%", marginTop: "2cm" }} />
+      <img src={heartbanner} style={{ width: "100%" }} />
       <h1 className="contact-header">We would love to hear from you!</h1>
 
       <div className="contact-container">

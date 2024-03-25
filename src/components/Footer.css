@@ -99,6 +99,10 @@
     align-self: center;
     margin-bottom: 10px;
   }
+
+  .footer-legal {
+    text-align: center;
+  }
 }
 
 .foot-hw:hover {

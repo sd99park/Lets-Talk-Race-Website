@@ -33,9 +33,12 @@ const Footer = () => {
           />
 
           <div className="foot-button-div">
-            <button className="foot-donate-button" onClick={() => openDonate()}>
+            <a
+              className="btn text-2xl bg-secondary border-black hover:bg-primary"
+              onClick={() => openDonate()}
+            >
               Donate
-            </button>
+            </a>
           </div>
           <p
             className="foot-links"

@@ -4,7 +4,6 @@ import Header from "./components/Header";
 import MainPage from "./components/MainPage/MainPage";
 import About from "./components/About/About";
 import Footer from "./components/Footer";
-import Donate from "./components/Donate";
 import Register from "./components/Register";
 import NotFound from "./components/NotFound";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
