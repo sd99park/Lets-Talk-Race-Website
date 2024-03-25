@@ -24,7 +24,7 @@ const MainCards = () => {
         <div className="card-body items-center text-center">
           <h2 className="card-title">{constants.primaryTitle}</h2>
           <p>{constants.primaryText}</p>
-          <div className="card-actions pt-5">
+          <div className="card-actions pt-14">
             <button
               className="btn btn-primary"
               onClick={() => navToRegistration()}
