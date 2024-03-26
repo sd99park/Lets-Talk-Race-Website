@@ -2,8 +2,15 @@
   margin-bottom: 5rem;
 }
 
-.about-verse {
+.about-verse-one {
   background-color: rgb(115 101 114);
+  margin: auto;
+  width: 100%;
+  margin: 2cm auto;
+}
+
+.about-verse-two {
+  background-color: rgb(196 128 122);
   margin: auto;
   width: 100%;
   margin: 2cm auto;

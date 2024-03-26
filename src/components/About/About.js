@@ -2,7 +2,7 @@ import "./About.css";
 import ProfilePage from "./Profiles/ProfilePage";
 import Story from "./Story";
 import headBanner from "../../img/headbanner.png";
-import InTheName from "./Profiles/InTheName";
+import InTheName from "./InTheName";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
@@ -27,20 +27,20 @@ const About = () => {
       <div id="InTheName">
         <InTheName />
       </div>
-      <div className="about-verse">
+      <div className="about-verse-one">
         <div>
           <p className="about-verse-text">
-            "Do nothing out of selfish ambition or vain conceit. Rather, in
-            humility value others above yourselves, not looking to your own
-            interests but each of you to the interests of the others."
-            <p className="about-verse-verse">Phil 2: 3-4</p>
+            "He has shown you, O mortal, what is good. And what does the Lord
+            require of you? To act justly and to love mercy and to walk humbly
+            with your God."
+            <p className="about-verse-verse">Micah 6:39</p>
           </p>
         </div>
       </div>
       <div id="Story">
         <Story />
       </div>
-      <div className="about-verse">
+      <div className="about-verse-two">
         <div>
           <p className="about-verse-text">
             "Do nothing out of selfish ambition or vain conceit. Rather, in

@@ -19,6 +19,14 @@ const Header = () => {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
+  window.addEventListener("click", function (e) {
+    document.querySelectorAll(".dropdown").forEach(function (dropdown) {
+      if (!dropdown.contains(e.target)) {
+        dropdown.open = false;
+      }
+    });
+  });
+
   const isNotMobile = windowDimension > 815;
 
   const openDonate = () => {
@@ -69,7 +77,7 @@ const Header = () => {
             <div className="flex-none">
               <ul className="menu menu-horizontal px-1 text-2xl">
                 <li>
-                  <details>
+                  <details class="dropdown">
                     <summary>About</summary>
                     <ul className="p-2 bg-base-100 bg-opacity-50 rounded-t-none w-64">
                       <li>
