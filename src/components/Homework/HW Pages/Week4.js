@@ -48,15 +48,16 @@ const Week4 = () => {
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/BLKK-O1ZoN4"
+          src="https://www.youtube.com/embed/-v8I0vlRtFY?si=Q9vBsNYyzApS60BG"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen="true"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
         ></iframe>
       </div>
       <p className="hw-video-desc">
-        Dr. Darrell Bock from Dallas Theological Seminary discusses CRT
+        Racism Experienced by Other Ethnic Groups in America
       </p>
 
       <h2 className="hw-sec-title">CHOOSE YOUR OWN ADVENTURE</h2>
@@ -369,25 +370,25 @@ const Week4 = () => {
         <p className="hw-obj-descr">
           <a
             onClick={() => {
-              window.open("https://www.youtube.com/watch?v=vfAp_G735r0");
+              window.open("https://www.youtube.com/embed/BLKK-O1ZoN4");
             }}
             href=""
           >
-            https://www.youtube.com/watch?v=vfAp_G735r0{" "}
+            https://www.youtube.com/embed/BLKK-O1ZoN4
           </a>
         </p>
 
         <p className="hw-obj-title">
-          Racism Experienced by Other Ethnic Groups in America (12:44 min)
+          Dr. Darrell Bock from Dallas Theological Seminary discusses CRT (3:22)
         </p>
         <p className="hw-obj-descr">
           <a
             onClick={() => {
-              window.open("https://www.youtube.com/watch?v=-v8I0vlRtFY");
+              window.open("https://www.youtube.com/watch?v=BLKK-O1ZoN4");
             }}
             href=""
           >
-            https://www.youtube.com/watch?v=-v8I0vlRtFY
+            https://www.youtube.com/watch?v=BLKK-O1ZoN4
           </a>
         </p>
       </div>
