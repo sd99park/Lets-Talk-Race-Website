@@ -1,11 +1,11 @@
 export const headerP1Pt1 = "Welcome to the Homework section for ";
 export const headerP1Ital =
-  "Let’s Talk Race: a Beginner’s Guide to Conversations About Race. ";
+  "Let's Talk Race: a Beginner's Guide to Conversations About Race. ";
 export const headerP1pt2 =
   "We are so glad you have committed to joining us for the 5 weeks of learning and growing. We appreciate your curiosity and your willingness to listen and see. Please know that we have been and continue to pray for you, your church and your spheres of influence.";
 export const headerP2 = "How Homework Works";
 export const headerP3 =
-  "Each week, after class, you will be emailed a link to the corresponding homework page for that week. If you can’t find the link, know you can always visit ltrministries.com/homework to find the homework (link is also at the bottom of our homepage).";
+  "Each week, after class, you will be emailed a link to the corresponding homework page for that week. If you can't find the link, know you can always visit ltrministries.com/homework to find the homework (link is also at the bottom of our homepage).";
 export const headerP4 = "Every week, there are two types of homework: ";
 export const headerP5 =
   " - this is one or two pieces that will be discussed in your class the next week. They have been chosen specifically for the purpose of continuing your learning and continuing conversations.";
