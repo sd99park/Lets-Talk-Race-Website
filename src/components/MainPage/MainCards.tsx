@@ -6,8 +6,9 @@ import EmbracingUnityLogo from "../../img/EmbracingUnityLogo.png";
 import CCCLogo from "../../img/CCCLogo.png";
 import * as constants from "../../constants/MainPageConstants";
 import { useNavigate } from "react-router-dom";
+import React from "react";
 
-const MainCards = () => {
+const MainCards: React.FC = () => {
   const navigate = useNavigate();
 
   const navToRegistration = () => {
@@ -45,7 +46,11 @@ const MainCards = () => {
           <div className="card-actions pt-5">
             <button
               className="btn btn-primary"
-              onClick={() => document.getElementById("engageModal").showModal()}
+              onClick={() =>
+                (
+                  document.getElementById("engageModal") as HTMLDialogElement
+                ).showModal()
+              }
             >
               Learn More
             </button>
@@ -111,7 +116,9 @@ const MainCards = () => {
             <button
               className="btn btn-primary"
               onClick={() =>
-                document.getElementById("partnerModal").showModal()
+                (
+                  document.getElementById("partnerModal") as HTMLDialogElement
+                ).showModal()
               }
             >
               Learn More

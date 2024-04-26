@@ -2,8 +2,9 @@ import { useNavigate } from "react-router-dom";
 import BannerLogo from "../img/BannerLogo.png";
 import homeworkLogo from "../img/homeworkLogo.png";
 import "./Footer.css";
+import React from "react";
 
-const Footer = () => {
+const Footer: React.FC = () => {
   const navigate = useNavigate();
 
   const openDonate = () => {
