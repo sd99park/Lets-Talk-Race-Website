@@ -117,12 +117,12 @@ const Contact: React.FC = () => {
         <div className="contact-form-container">
           <h2 className="contact-head">Contact Us</h2>
           <h3 className="contact-ltr">LTR Ministries, Inc.</h3>
-          <div className="contact-subgroup">
-            <p className="contact-title">Email: </p>
+          <p className="contact-title">
+            Email:
             <a href="mailto:admin@ltrministries.com" className="contact-email">
               admin@ltrministries.com
             </a>
-          </div>
+          </p>
           <div className="contact-subgroup">
             <p className="contact-title">Phone:</p>
             <p className="contact-phone">(469)-513-1060</p>
