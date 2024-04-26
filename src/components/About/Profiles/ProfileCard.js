@@ -10,7 +10,7 @@ const ProfileCard = ({
 }) => {
   return (
     <>
-      <div className="card w-96 bg-gray-50 shadow-xl m-10 font-montserra z-0">
+      <div className="card w-96 bg-gray-50 shadow-xl m-10 font-montserrat z-0">
         <figure className="px-10 pt-10">
           <img src={image} alt="Headshot" className="rounded-xl" />
         </figure>
