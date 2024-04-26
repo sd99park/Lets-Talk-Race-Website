@@ -54,7 +54,7 @@ const Contact: React.FC = () => {
   return (
     <div className="Testing">
       <img src={heartbanner} style={{ width: "100%" }} alt="Heart Banner" />
-      <h1 className="contact-header">We would love to hear from you!</h1>
+      <h1 className="text-center text-4xl">We would love to hear from you!</h1>
 
       <div className="contact-container">
         <div className="contact-form-container">
