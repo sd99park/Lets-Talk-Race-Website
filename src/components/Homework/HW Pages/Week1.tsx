@@ -3,8 +3,9 @@ import ltrLogo from "../../../img/ltrLogo.png";
 import { useNavigate } from "react-router-dom";
 import WhiteCulture from "../../../img/WhiteCulture.pdf";
 import "./HwPage.css";
+import React from "react";
 
-const Week1 = () => {
+const Week1: React.FC = () => {
   const navigate = useNavigate();
 
   return (
@@ -34,9 +35,8 @@ const Week1 = () => {
           height="315"
           src="https://www.youtube.com/embed/c2tOp7OxyQ8"
           title="YouTube video player"
-          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen="true"
+          allowFullScreen={true}
         ></iframe>
       </div>
       <p className="hw-video-desc">
@@ -48,9 +48,8 @@ const Week1 = () => {
           height="315"
           src="https://www.youtube.com/embed/qRc7AImUaUM"
           title="YouTube video player"
-          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen="true"
+          allowFullScreen={true}
         ></iframe>
       </div>
       <p className="hw-video-desc">

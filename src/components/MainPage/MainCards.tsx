@@ -91,7 +91,7 @@ const MainCards: React.FC = () => {
                 </p>
                 <p className="text-left py-2">
                   Let's grab coffee and dream. We have some very practical, easy
-                  to engage, first steps we'd love to tell you about.{" "}
+                  to engage, first steps we'd love to tell you about.
                 </p>
                 <div className="modal-action">
                   <form method="dialog">

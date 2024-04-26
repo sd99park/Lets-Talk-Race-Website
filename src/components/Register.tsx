@@ -51,7 +51,7 @@ const Register: React.FC = () => {
           </div>
         </div>
         <h2 className="register-important-title">
-          {constants.regImportantPt1}{" "}
+          {constants.regImportantPt1}
           <a
             href="mailto:letstalkrace@ltrministries.com"
             className="register-contact-email"

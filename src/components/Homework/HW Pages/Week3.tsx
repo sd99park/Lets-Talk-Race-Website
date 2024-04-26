@@ -3,8 +3,9 @@ import ltrLogo from "../../../img/ltrLogo.png";
 import week3Art from "../../../img/week3Article.pdf";
 import { useNavigate } from "react-router-dom";
 import "./HwPage.css";
+import React from "react";
 
-const Week3 = () => {
+const Week3: React.FC = () => {
   const navigate = useNavigate();
 
   return (
@@ -34,14 +35,13 @@ const Week3 = () => {
           height="315"
           src="https://www.youtube.com/embed/QO15S3WC9pg"
           title="YouTube video player"
-          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen="true"
+          allowFullScreen={true}
         ></iframe>
       </div>
       <p className="hw-video-desc">
-        Words that Don’t Belong to Everyone with Ta’Nehisi Coates (specifically
-        related to the n-word) (5min){" "}
+        Words that Don't Belong to Everyone with Ta'Nehisi Coates (specifically
+        related to the n-word) (5min)
       </p>
       <div className="hw-vid">
         <iframe
@@ -49,9 +49,8 @@ const Week3 = () => {
           height="315"
           src="https://www.youtube.com/embed/4j3hGTRQ4rA"
           title="YouTube video player"
-          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen="true"
+          allowFullScreen={true}
         ></iframe>
       </div>
       <p className="hw-video-desc">
@@ -74,7 +73,7 @@ const Week3 = () => {
             }}
             href=""
           >
-            https://www.huffingtonpost.com/good-men-project/why-its-so-hard-to-talk-to-white-people-about-racism_b_7183710.html{" "}
+            https://www.huffingtonpost.com/good-men-project/why-its-so-hard-to-talk-to-white-people-about-racism_b_7183710.html
           </a>
         </p>
 
@@ -105,7 +104,7 @@ const Week3 = () => {
             }}
             href=""
           >
-            https://www.theguardian.com/world/2017/may/30/why-im-no-longer-talking-to-white-people-about-race{" "}
+            https://www.theguardian.com/world/2017/may/30/why-im-no-longer-talking-to-white-people-about-race
             {" d"}
           </a>
         </p>
@@ -122,7 +121,7 @@ const Week3 = () => {
             }}
             href=""
           >
-            https://qz.com/656159/the-scientific-way-to-train-white-people-to-stop-being-racist/{" "}
+            https://qz.com/656159/the-scientific-way-to-train-white-people-to-stop-being-racist/
             {" d"}
           </a>
         </p>
@@ -193,7 +192,7 @@ const Week3 = () => {
             }}
             href=""
           >
-            https://youtu.be/LE8_0blJOtk{" "}
+            https://youtu.be/LE8_0blJOtk
           </a>
         </p>
 
@@ -234,7 +233,7 @@ const Week3 = () => {
             }}
             href=""
           >
-            https://www.youtube.com/watch?v=jSsoVjTgYJ0{" "}
+            https://www.youtube.com/watch?v=jSsoVjTgYJ0
           </a>
         </p>
 

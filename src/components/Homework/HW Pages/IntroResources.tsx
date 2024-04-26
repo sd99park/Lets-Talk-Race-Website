@@ -1,7 +1,8 @@
+import React from "react";
 import ltrLogo from "../../../img/ltrLogo.png";
 import { useNavigate } from "react-router-dom";
 
-const IntroResources = () => {
+const IntroResources: React.FC = () => {
   const navigate = useNavigate();
 
   return (
@@ -50,16 +51,14 @@ const IntroResources = () => {
           <em>White Fragility</em> by Robin DiAngelo
         </p>
         <p className="intro-books">
-          <em>
-            Why Are All the Black Kids Sitting Together in the Cafeteria?{" "}
-          </em>{" "}
+          <em>Why Are All the Black Kids Sitting Together in the Cafeteria?</em>
           by Beverly Daniel Tatum
         </p>
         <p className="intro-books">
           <em>So You Want to Talk about Race</em> by Ijeoma Oluo
         </p>
         <p className="intro-books">
-          <em>I'm Still Here; Black Dignity in a World Made for Whiteness</em>{" "}
+          <em>I'm Still Here; Black Dignity in a World Made for Whiteness</em>
           by Austin Channing Brown
         </p>
         <p className="intro-books">

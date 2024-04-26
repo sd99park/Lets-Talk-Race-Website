@@ -4,8 +4,9 @@ import backImg from "../../../img/back.png";
 import ltrLogo from "../../../img/ltrLogo.png";
 import ltrWorkbook from "../../../img/ltrWorkbook.pdf";
 import HwDownloadImgWords from "../../../img/HwDownloadImgWords.png";
+import React from "react";
 
-const ClassPrework = () => {
+const ClassPrework: React.FC = () => {
   const navigate = useNavigate();
 
   return (
@@ -32,9 +33,8 @@ const ClassPrework = () => {
           height="315"
           src="https://www.youtube.com/embed/XWOvxZa1hZI"
           title="YouTube video player"
-          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen="true"
+          allowFullScreen={true}
         ></iframe>
       </div>
       <p className="intro-video-desc">
@@ -47,9 +47,8 @@ const ClassPrework = () => {
           height="315"
           src="https://www.youtube.com/embed/ex7VcmWPwkE"
           title="YouTube video player"
-          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen="true"
+          allowFullScreen={true}
         ></iframe>
       </div>
       <p className="intro-video-desc">
