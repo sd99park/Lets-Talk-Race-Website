@@ -93,9 +93,6 @@
   text-decoration: underline;
 }
 
-.contact-title {
-}
-
 @media (max-width: 850px) {
   .contact-container {
     flex-direction: column;
