@@ -39,7 +39,6 @@ const Header: React.FC = () => {
     navigate("/About?scrollTo=TopOfPage");
   };
 
-  // TODO: These need to scroll to specific divs
   const navToStory = () => {
     navigate("/About?scrollTo=Story");
   };

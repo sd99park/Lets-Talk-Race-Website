@@ -10,16 +10,15 @@ import ltrWorkbook from "../../img/ltrWorkbook.pdf";
 
 const HWMain: React.FC = () => {
   const navigate = useNavigate();
-  const [windowDimension, setWindowDimension] = useState(null);
+  const [windowDimension, setWindowDimension] = useState<number | null>(null);
 
-  // TODO: Update these to not be any when next on wifi
   useEffect(() => {
-    setWindowDimension(window.innerWidth as any);
+    setWindowDimension(window.innerWidth);
   }, []);
 
   useEffect(() => {
     function handleResize() {
-      setWindowDimension(window.innerWidth as any);
+      setWindowDimension(window.innerWidth);
     }
 
     window.addEventListener("resize", handleResize);
