@@ -1,4 +1,17 @@
-const ProfileCard = ({
+import React from "react";
+
+interface ProfileCardProps {
+  bio1: string;
+  bio2?: string;
+  bio3?: string;
+  bio4?: string;
+  name: string;
+  title: string;
+  image: string;
+  summary: string;
+}
+
+const ProfileCard: React.FC<ProfileCardProps> = ({
   bio1,
   bio2,
   bio3,
@@ -22,18 +35,22 @@ const ProfileCard = ({
             <button
               className="btn btn-primary"
               onClick={() =>
-                document.getElementById(`my_modal_${name}`).showModal()
+                (
+                  document.getElementById(
+                    `my_modal_${name}`
+                  ) as HTMLDialogElement
+                ).showModal()
               }
             >
               Read more
             </button>
             <dialog id={`my_modal_${name}`} className="modal">
               <div className="modal-box w-11/12 max-w-5xl">
-                <div class="flex">
+                <div className="flex">
                   <figure className="px-10 pt-10">
                     <img src={image} alt="Headshot" className="rounded-xl" />
                   </figure>
-                  <div class="flex items-center justify-center">
+                  <div className="flex items-center justify-center">
                     <div>
                       <h2 className="card-title">{name}</h2>
                       <p className="text-2xl">{title}</p>

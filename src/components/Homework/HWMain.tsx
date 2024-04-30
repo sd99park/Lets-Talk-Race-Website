@@ -5,13 +5,12 @@ import "./HWMain.css";
 import HWMobile from "../../img/HWImgMobile.png";
 import ltrLogo from "../../img/ltrLogo.png";
 import * as constants from "../../constants/HWPageConstants";
-import HwDownloadImg from "../../img/HwDownloadImg.png";
 import HwDownloadImgWords from "../../img/HwDownloadImgWords.png";
 import ltrWorkbook from "../../img/ltrWorkbook.pdf";
 
-const HWMain = () => {
+const HWMain: React.FC = () => {
   const navigate = useNavigate();
-  const [windowDimension, setWindowDimension] = useState(null);
+  const [windowDimension, setWindowDimension] = useState<number | null>(null);
 
   useEffect(() => {
     setWindowDimension(window.innerWidth);
@@ -192,11 +191,7 @@ const HWMain = () => {
               </div>
             </div>
             <div>
-              <div
-                className="hw-text-mobile"
-                style={{ marginBottom: "100px" }}
-                d
-              >
+              <div className="hw-text-mobile" style={{ marginBottom: "100px" }}>
                 <h4>{constants.mainTitle12}</h4>
                 <p>{constants.mainText13}</p>
                 <p>

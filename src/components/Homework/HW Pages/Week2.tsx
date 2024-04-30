@@ -2,8 +2,9 @@ import backImg from "../../../img/back.png";
 import ltrLogo from "../../../img/ltrLogo.png";
 import { useNavigate } from "react-router-dom";
 import "./HwPage.css";
+import React from "react";
 
-const Week2 = () => {
+const Week2: React.FC = () => {
   const navigate = useNavigate();
 
   return (
@@ -33,9 +34,8 @@ const Week2 = () => {
           height="315"
           src="https://www.youtube.com/embed/XhOh_EGe41Y"
           title="YouTube video player"
-          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen="true"
+          allowFullScreen={true}
         ></iframe>
       </div>
       <p className="hw-video-desc">
@@ -47,9 +47,8 @@ const Week2 = () => {
           height="315"
           src="https://www.youtube.com/embed/0DIBJ-ec3wU"
           title="YouTube video player"
-          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen="true"
+          allowFullScreen={true}
         ></iframe>
       </div>
       <p className="hw-video-desc">
@@ -61,9 +60,8 @@ const Week2 = () => {
           height="315"
           src="https://www.youtube.com/embed/fnCFwyjzbuw"
           title="YouTube video player"
-          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen="true"
+          allowFullScreen={true}
         ></iframe>
       </div>
       <p className="hw-video-desc">
@@ -107,7 +105,7 @@ const Week2 = () => {
             }}
             href=""
           >
-            "https://www.pcc.edu/illumination/wp-content/uploads/sites/54/2018/05/white-privilege-essay-mcintosh.pdf"{" "}
+            "https://www.pcc.edu/illumination/wp-content/uploads/sites/54/2018/05/white-privilege-essay-mcintosh.pdf"
           </a>
         </p>
 
@@ -123,7 +121,7 @@ const Week2 = () => {
             }}
             href=""
           >
-            "https://www.nytimes.com/2020/08/11/health/microaggression-medicine-doctors.html?action=click&module=RelatedLinks&pgtype=Article&fbclid=IwAR2EfASrtXcu4CEmQkJtXnDlhiiJyym-RXBveM_Eif3ETlaAw06LG4W2qZ8"{" "}
+            "https://www.nytimes.com/2020/08/11/health/microaggression-medicine-doctors.html?action=click&module=RelatedLinks&pgtype=Article&fbclid=IwAR2EfASrtXcu4CEmQkJtXnDlhiiJyym-RXBveM_Eif3ETlaAw06LG4W2qZ8"
           </a>
         </p>
 
@@ -137,7 +135,7 @@ const Week2 = () => {
             }}
             href=""
           >
-            "https://www.firstcoastnews.com/amp/article/news/local/jacksonville-couple-sees-home-appraisal-jump-40-percent-after-they-remove-all-traces-of-blackness/77-c3087e8c-0c65-4fb9-8319-da82f5c0ea20?__twitter_impression=true"{" "}
+            "https://www.firstcoastnews.com/amp/article/news/local/jacksonville-couple-sees-home-appraisal-jump-40-percent-after-they-remove-all-traces-of-blackness/77-c3087e8c-0c65-4fb9-8319-da82f5c0ea20?__twitter_impression=true"
           </a>
         </p>
 
@@ -182,7 +180,7 @@ const Week2 = () => {
             }}
             href=""
           >
-            https://www.youtube.com/watch?v=ETR9qrVS17g{" "}
+            https://www.youtube.com/watch?v=ETR9qrVS17g
           </a>
         </p>
 
@@ -208,7 +206,7 @@ const Week2 = () => {
             }}
             href=""
           >
-            https://www.youtube.com/watch?v=hD5f8GuNuGQ&list=RDhRiWgx4sHGg&index=2{" "}
+            https://www.youtube.com/watch?v=hD5f8GuNuGQ&list=RDhRiWgx4sHGg&index=2
           </a>
         </p>
 
@@ -224,7 +222,7 @@ const Week2 = () => {
             }}
             href=""
           >
-            https://www.youtube.com/watch?v=y5VdstSj_lM&feature=youtu.be&fbclid=IwAR01ebgZyqeoIg_LP8sf7RrAtnjdx5cTLkGxOe7FcWzaAZCa8pW859i98IM{" "}
+            https://www.youtube.com/watch?v=y5VdstSj_lM&feature=youtu.be&fbclid=IwAR01ebgZyqeoIg_LP8sf7RrAtnjdx5cTLkGxOe7FcWzaAZCa8pW859i98IM
           </a>
         </p>
 
@@ -274,7 +272,7 @@ const Week2 = () => {
             }}
             href=""
           >
-            https://podcasts.apple.com/us/podcast/114-nt-wright-esau-mccaulley-tim-mackie-on-reading/id1441656192?i=1000558293378{" "}
+            https://podcasts.apple.com/us/podcast/114-nt-wright-esau-mccaulley-tim-mackie-on-reading/id1441656192?i=1000558293378
           </a>
         </p>
 
@@ -291,7 +289,7 @@ const Week2 = () => {
             }}
             href=""
           >
-            https://podcasts.apple.com/us/podcast/115-part-2-nt-wright-esau-mccaulley-tim-mackie-on-race/id1441656192?i=1000559004526{" "}
+            https://podcasts.apple.com/us/podcast/115-part-2-nt-wright-esau-mccaulley-tim-mackie-on-race/id1441656192?i=1000559004526
           </a>
         </p>
 
@@ -307,7 +305,7 @@ const Week2 = () => {
             }}
             href=""
           >
-            https://podcasts.apple.com/us/podcast/bryan-stevenson-on-how-america-can-heal/id1081584611?i=1000485472204{" "}
+            https://podcasts.apple.com/us/podcast/bryan-stevenson-on-how-america-can-heal/id1081584611?i=1000485472204
           </a>
         </p>
       </div>

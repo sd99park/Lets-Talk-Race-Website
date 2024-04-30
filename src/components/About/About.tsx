@@ -3,10 +3,10 @@ import ProfilePage from "./Profiles/ProfilePage";
 import Story from "./Story";
 import headBanner from "../../img/headbanner.png";
 import InTheName from "./InTheName";
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
-const About = () => {
+const About: React.FC = () => {
   const location = useLocation();
 
   useEffect(() => {

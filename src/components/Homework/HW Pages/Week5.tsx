@@ -2,8 +2,9 @@ import backImg from "../../../img/back.png";
 import ltrLogo from "../../../img/ltrLogo.png";
 import { useNavigate } from "react-router-dom";
 import "./HwPage.css";
+import React from "react";
 
-const Week5 = () => {
+const Week5: React.FC = () => {
   const navigate = useNavigate();
 
   return (
@@ -22,11 +23,11 @@ const Week5 = () => {
       </button>
 
       <h1 className="hw-title">
-        Congratulations!! You have completed all 5 weeks of the Let’s Talk Race
+        Congratulations!! You have completed all 5 weeks of the Let's Talk Race
         course. We are so honored that you chose to spend your time with us.
         Below we have curated a list of “continuing education” resources. We
         also encourage you to continue visiting these sites to finish any
-        resources you haven’t had the chance to do. Please do not hesitate to
+        resources you haven't had the chance to do. Please do not hesitate to
         reach out to us if you have any questions.
       </h1>
 
@@ -75,7 +76,7 @@ const Week5 = () => {
             }}
             href=""
           >
-            https://www.ntwrightonline.org/portfolio-items/ethnicity-god/?portfolioCats=50%2C52%2C49%2C51{" "}
+            https://www.ntwrightonline.org/portfolio-items/ethnicity-god/?portfolioCats=50%2C52%2C49%2C51
           </a>
         </p>
       </div>
@@ -95,7 +96,7 @@ const Week5 = () => {
             }}
             href=""
           >
-            https://graphics.reuters.com/GLOBAL-RACE/USA/nmopajawjva/#maternal-health{" "}
+            https://graphics.reuters.com/GLOBAL-RACE/USA/nmopajawjva/#maternal-health
           </a>
         </p>
 
@@ -109,12 +110,12 @@ const Week5 = () => {
         </p>
 
         <p className="hw-obj-title">
-          <em>An African American and Latinx History of the United States</em>{" "}
+          <em>An African American and Latinx History of the United States</em>
           by Paul Ortiz
         </p>
 
         <p className="hw-obj-title">
-          <em>The Myth of the Model Minority: Asian Americans Facing Racism</em>{" "}
+          <em>The Myth of the Model Minority: Asian Americans Facing Racism</em>
           by Rosalind S. Chou
         </p>
 
@@ -122,7 +123,7 @@ const Week5 = () => {
           <em>
             After the Last Border: Two Families and the Story of Refuge in
             America
-          </em>{" "}
+          </em>
           by Jessica Goudeau
         </p>
       </div>

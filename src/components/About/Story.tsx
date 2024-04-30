@@ -1,8 +1,9 @@
 import actlovewalk from "../../img/actlovewalk.png";
 import worthy from "../../img/worthy.png";
 import articleImage from "../../img/ArticleImage.jpeg";
+import React from "react";
 
-const Story = () => {
+const Story: React.FC = () => {
   return (
     <>
       <div className="font-montserrat mx-32 md:mx-10">

@@ -1,18 +1,16 @@
 import "./Contact.css";
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import heartbanner from "../img/heartbanner.png";
 import emailjs from "@emailjs/browser";
-import { useState } from "react";
 
-const Contact = () => {
-  const form = useRef();
+const Contact: React.FC = () => {
+  const form = useRef<HTMLFormElement>(null);
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
-
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     console.log({
       "first-name": firstName,
@@ -31,9 +29,18 @@ const Contact = () => {
     });
   };
 
-  const sendEmail = (form) => {
+  const sendEmail = (formData: {
+    name: string;
+    email: string;
+    message: string;
+  }) => {
     emailjs
-      .send("service_m4668oj", "template_ua9zhfm", form, "q57Ehd9mtbIQ31CvV")
+      .send(
+        "service_m4668oj",
+        "template_ua9zhfm",
+        formData,
+        "q57Ehd9mtbIQ31CvV"
+      )
       .then(
         (result) => {
           console.log(result.text);
@@ -46,8 +53,8 @@ const Contact = () => {
 
   return (
     <div className="Testing">
-      <img src={heartbanner} style={{ width: "100%" }} />
-      <h1 className="contact-header">We would love to hear from you!</h1>
+      <img src={heartbanner} style={{ width: "100%" }} alt="Heart Banner" />
+      <h1 className="text-center text-4xl">We would love to hear from you!</h1>
 
       <div className="contact-container">
         <div className="contact-form-container">
@@ -58,8 +65,8 @@ const Contact = () => {
                 <label className="contact-label">First Name</label>
                 <input
                   className="contact-input"
-                  type="first-name"
-                  name="name"
+                  type="text"
+                  name="first-name"
                   onChange={(e) => setFirstName(e.target.value)}
                   value={firstName}
                   placeholder="First name.."
@@ -70,8 +77,8 @@ const Contact = () => {
                 <label className="contact-label">Last Name</label>
                 <input
                   className="contact-input"
-                  type="last-name"
-                  name="name"
+                  type="text"
+                  name="last-name"
                   onChange={(e) => setLastName(e.target.value)}
                   value={lastName}
                   placeholder="Last name.."
@@ -95,7 +102,6 @@ const Contact = () => {
               <label className="contact-label">Message</label>
               <textarea
                 className="contact-input"
-                type="message"
                 name="message"
                 onChange={(e) => setMessage(e.target.value)}
                 value={message}
@@ -111,12 +117,12 @@ const Contact = () => {
         <div className="contact-form-container">
           <h2 className="contact-head">Contact Us</h2>
           <h3 className="contact-ltr">LTR Ministries, Inc.</h3>
-          <div className="contact-subgroup">
-            <p className="contact-title">Email: </p>
+          <p className="contact-title">
+            Email:
             <a href="mailto:admin@ltrministries.com" className="contact-email">
               admin@ltrministries.com
             </a>
-          </div>
+          </p>
           <div className="contact-subgroup">
             <p className="contact-title">Phone:</p>
             <p className="contact-phone">(469)-513-1060</p>

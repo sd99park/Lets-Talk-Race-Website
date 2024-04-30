@@ -17,10 +17,6 @@
   height: max-content;
 }
 
-.contact-header {
-  text-align: center;
-}
-
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -94,6 +90,7 @@
 .contact-email {
   padding-left: 0.5rem;
   line-height: 3.3;
+  text-decoration: underline;
 }
 
 @media (max-width: 850px) {

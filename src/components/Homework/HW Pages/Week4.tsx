@@ -3,8 +3,9 @@ import ltrLogo from "../../../img/ltrLogo.png";
 import { useNavigate } from "react-router-dom";
 import week4Prompt from "../../../img/week4Prompt.png";
 import "./HwPage.css";
+import React from "react";
 
-const Week4 = () => {
+const Week4: React.FC = () => {
   const navigate = useNavigate();
 
   return (
@@ -36,9 +37,8 @@ const Week4 = () => {
           height="315"
           src="https://www.youtube.com/embed/AGUwcs9qJXY"
           title="YouTube video player"
-          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen="true"
+          allowFullScreen={true}
         ></iframe>
       </div>
       <p className="hw-video-desc">
@@ -50,10 +50,8 @@ const Week4 = () => {
           height="315"
           src="https://www.youtube.com/embed/-v8I0vlRtFY?si=Q9vBsNYyzApS60BG"
           title="YouTube video player"
-          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
+          allowFullScreen={true}
         ></iframe>
       </div>
       <p className="hw-video-desc">
@@ -92,7 +90,7 @@ const Week4 = () => {
             }}
             href=""
           >
-            https://www.forbes.com/sites/antoinegara/2020/06/18/the-bezos-of-black-wall-street-tulsa-race-riots-1921/#3fe5bf86f321{" "}
+            https://www.forbes.com/sites/antoinegara/2020/06/18/the-bezos-of-black-wall-street-tulsa-race-riots-1921/#3fe5bf86f321
           </a>
         </p>
 
@@ -106,7 +104,7 @@ const Week4 = () => {
             }}
             href=""
           >
-            https://www.naacpldf.org/wp-content/uploads/LDF-Primer-on-Hair-Discrimination-Resources-FINAL.pdf{" "}
+            https://www.naacpldf.org/wp-content/uploads/LDF-Primer-on-Hair-Discrimination-Resources-FINAL.pdf
           </a>
         </p>
 
@@ -118,7 +116,7 @@ const Week4 = () => {
             }}
             href=""
           >
-            https://www.thecrownact.com/{" "}
+            https://www.thecrownact.com/
           </a>
         </p>
 
@@ -134,7 +132,7 @@ const Week4 = () => {
             }}
             href=""
           >
-            https://medium.com/@aquietstrength/what-i-wish-my-white-friends-knew-b0d7fb056113{" "}
+            https://medium.com/@aquietstrength/what-i-wish-my-white-friends-knew-b0d7fb056113
           </a>
         </p>
 
@@ -148,12 +146,12 @@ const Week4 = () => {
             }}
             href=""
           >
-            https://amp.theguardian.com/film/2016/jan/18/hollywoods-race-problem-film-industry-actors-of-colour{" "}
+            https://amp.theguardian.com/film/2016/jan/18/hollywoods-race-problem-film-industry-actors-of-colour
           </a>
         </p>
 
         <p className="hw-obj-title">
-          Article about BLM and Marxism from Christianity Today{" "}
+          Article about BLM and Marxism from Christianity Today
         </p>
         <p className="hw-obj-descr">
           <a
@@ -164,12 +162,12 @@ const Week4 = () => {
             }}
             href=""
           >
-            https://churchleaders.com/voices/406005-social-justice-critical-race-theory-marxism-and-biblical-ethics.html{" "}
+            https://churchleaders.com/voices/406005-social-justice-critical-race-theory-marxism-and-biblical-ethics.html
           </a>
         </p>
 
         <p className="hw-obj-title">
-          Another article about Critical Race Theory{" "}
+          Another article about Critical Race Theory
         </p>
         <p className="hw-obj-descr">
           <a
@@ -180,7 +178,7 @@ const Week4 = () => {
             }}
             href=""
           >
-            https://medium.com/@rasoolberry/critical-g-race-theory-the-promise-perils-of-crt-c5de933d55a1{" "}
+            https://medium.com/@rasoolberry/critical-g-race-theory-the-promise-perils-of-crt-c5de933d55a1
           </a>
         </p>
 
@@ -207,7 +205,7 @@ const Week4 = () => {
             }}
             href=""
           >
-            http://www.beecivilbalm.com/open-letter-2.html{" "}
+            http://www.beecivilbalm.com/open-letter-2.html
           </a>
         </p>
         <p className="hw-obj-descr">
@@ -218,7 +216,7 @@ const Week4 = () => {
             }}
             href=""
           >
-            http://www.beecivilbalm.com/open-letter-3.html{" "}
+            http://www.beecivilbalm.com/open-letter-3.html
           </a>
         </p>
 
@@ -230,7 +228,7 @@ const Week4 = () => {
             }}
             href=""
           >
-            https://www.youtube.com/watch?v=3NXC4Q_4JVg&t=335s{" "}
+            https://www.youtube.com/watch?v=3NXC4Q_4JVg&t=335s
           </a>
         </p>
       </div>
@@ -248,7 +246,7 @@ const Week4 = () => {
             }}
             href=""
           >
-            https://itunes.apple.com/us/podcast/united-we-pray/id1289500755?mt=2&i=1000412108958{" "}
+            https://itunes.apple.com/us/podcast/united-we-pray/id1289500755?mt=2&i=1000412108958
           </a>
         </p>
       </div>
@@ -282,7 +280,7 @@ const Week4 = () => {
             }}
             href=""
           >
-            https://youtu.be/cZTioTkHcB0{" "}
+            https://youtu.be/cZTioTkHcB0
           </a>
         </p>
         <p className="hw-obj-title">
@@ -296,7 +294,7 @@ const Week4 = () => {
             }}
             href=""
           >
-            https://www.youtube.com/watch?v=ZXB4TD_AdS8{" "}
+            https://www.youtube.com/watch?v=ZXB4TD_AdS8
           </a>
         </p>
         <p className="hw-obj-title">
@@ -312,7 +310,7 @@ const Week4 = () => {
             }}
             href=""
           >
-            https://voice.dts.edu/chapel/cultural-engagement-chapel-unity-and-diversity/{" "}
+            https://voice.dts.edu/chapel/cultural-engagement-chapel-unity-and-diversity/
           </a>
         </p>
         <p className="hw-obj-title">
@@ -331,7 +329,7 @@ const Week4 = () => {
             }}
             href=""
           >
-            https://www.amazon.com/gp/video/detail/B083ZMNSB2/ref=share_ios_season{" "}
+            https://www.amazon.com/gp/video/detail/B083ZMNSB2/ref=share_ios_season
           </a>
         </p>
         <p className="hw-obj-title">
@@ -360,7 +358,7 @@ const Week4 = () => {
             }}
             href=""
           >
-            https://www.slavevoyages.org/voyage/database#timelapse{" "}
+            https://www.slavevoyages.org/voyage/database#timelapse
           </a>
         </p>
 

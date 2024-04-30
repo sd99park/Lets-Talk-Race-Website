@@ -3,8 +3,9 @@ import MainCards from "./MainCards";
 import Interview from "./Interview";
 
 import "./MainPage.css";
+import React from "react";
 
-const MainPage = () => {
+const MainPage: React.FC = () => {
   return (
     <>
       <div className="main-page-container">

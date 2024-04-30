@@ -3,8 +3,9 @@ import * as constants from "../constants/RegistrationConstants";
 import registrationOne from "../img/registrationOne.png";
 import registrationTwo from "../img/registrationTwo.png";
 import registrationThree from "../img/registrationThree.png";
+import React from "react";
 
-const Register = () => {
+const Register: React.FC = () => {
   return (
     <>
       <div className="register-container">
@@ -14,7 +15,11 @@ const Register = () => {
             <p className="register-paragraph">{constants.reg1stParagraph}</p>
           </div>
           <div className="register-image">
-            <img src={registrationOne} style={{ maxWidth: "100%" }} />
+            <img
+              src={registrationOne}
+              style={{ maxWidth: "100%" }}
+              alt="Registration One"
+            />
           </div>
         </div>
 
@@ -24,7 +29,11 @@ const Register = () => {
 
         <div className="register-sections">
           <div className="register-image">
-            <img src={registrationTwo} style={{ maxWidth: "100%" }} />
+            <img
+              src={registrationTwo}
+              style={{ maxWidth: "100%" }}
+              alt="Registration Two"
+            />
           </div>
           <div className="register-text">
             <h2 className="register-list-title">
@@ -42,7 +51,7 @@ const Register = () => {
           </div>
         </div>
         <h2 className="register-important-title">
-          {constants.regImportantPt1}{" "}
+          {constants.regImportantPt1}
           <a
             href="mailto:letstalkrace@ltrministries.com"
             className="register-contact-email"
@@ -63,7 +72,11 @@ const Register = () => {
             </ol>
           </div>
           <div className="register-image">
-            <img src={registrationThree} style={{ maxWidth: "100%" }} />
+            <img
+              src={registrationThree}
+              style={{ maxWidth: "100%" }}
+              alt="Registration Three"
+            />
           </div>
         </div>
 
@@ -71,9 +84,6 @@ const Register = () => {
           src="https://docs.google.com/forms/d/e/1FAIpQLSfOUQ7ykO40bFhYqEq_0T723I03tvBMi67xCtp4eWoBbX0K4g/viewform?embedded=true"
           width="640"
           height="2076"
-          frameborder="0"
-          marginheight="0"
-          marginwidth="0"
         >
           Loading…
         </iframe>
