@@ -254,6 +254,20 @@ const Week2: React.FC = () => {
             https://www.youtube.com/watch?v=wqJ-psD9vJw
           </a>
         </p>
+
+        <p className="hw-obj-title">
+          Racism seen in test for renal failure (4 min) - Dara Tucker
+        </p>
+        <p className="hw-obj-descr">
+          <a
+            onClick={() => {
+              window.open("https://www.youtube.com/watch?v=qOZmJ1ww-iM");
+            }}
+            href=""
+          >
+            https://www.youtube.com/watch?v=qOZmJ1ww-iM
+          </a>
+        </p>
       </div>
 
       {/* LISTEN */}

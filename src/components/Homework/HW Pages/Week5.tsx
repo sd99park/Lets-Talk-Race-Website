@@ -43,19 +43,36 @@ const Week5: React.FC = () => {
       <div>
         <h3 className="hw-center">Listen</h3>
         <p className="hw-obj-title">
-          Podcast: Here’s Where It Gets Interesting <br />
+          Podcast: Here's Where It Gets Interesting <br />
           Host: Sharon McMahon <br />
           Series: Resilience (Season 1) (a deep dive into Japanese Incarceration
           of the 1940s)
         </p>
+
         <p className="hw-obj-title">
-          Podcast: Here’s Where It Gets Interesting
+          Podcast: Here's Where It Gets Interesting
           <br />
           Host: Sharon McMahon
           <br />
           Series: Momentum: The Ripples Made by Ordinary People (episode
           146-162) (interesting look at the Civil Rights Movement of the 50s &
           60s)
+        </p>
+
+        <p className="hw-obj-title">
+          Podcast : The Reclaim (from Asian American Christian Collaborative)
+        </p>
+        <p className="hw-obj-descr">
+          <a
+            onClick={() => {
+              window.open(
+                "https://open.spotify.com/show/415I7RXxWwki6efu8IePuJ"
+              );
+            }}
+            href=""
+          >
+            https://open.spotify.com/show/415I7RXxWwki6efu8IePuJ
+          </a>
         </p>
       </div>
 
@@ -126,6 +143,22 @@ const Week5: React.FC = () => {
           </em>
           by Jessica Goudeau
         </p>
+
+        <p className="hw-obj-title">
+          Reclaim Magazine (from Asian American Christian Collaborative)
+        </p>
+        <p className="hw-obj-descr">
+          <a
+            onClick={() => {
+              window.open(
+                "https://www.asianamericanchristiancollaborative.com/magazine"
+              );
+            }}
+            href=""
+          >
+            https://www.asianamericanchristiancollaborative.com/magazine
+          </a>
+        </p>
       </div>
 
       {/* WATCH */}
@@ -140,6 +173,20 @@ const Week5: React.FC = () => {
         <p className="hw-obj-title">
           <em>Bookmarks</em> on Netflix (a children's series of POC reading
           books written by POC, longest episode is 11 minutes)
+        </p>
+
+        <p className="hw-obj-title">
+          Videos Produced by Asian American Christian Collaborative
+        </p>
+        <p className="hw-obj-descr">
+          <a
+            onClick={() => {
+              window.open("https://www.youtube.com/@aachristcollab/videos");
+            }}
+            href=""
+          >
+            https://www.youtube.com/@aachristcollab/videos
+          </a>
         </p>
       </div>
 
