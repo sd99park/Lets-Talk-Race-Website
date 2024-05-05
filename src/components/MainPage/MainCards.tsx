@@ -145,10 +145,9 @@ const MainCards: React.FC = () => {
                     </p>
                     <a
                       onClick={() => {
-                        window.open("www.wearethreaded.org");
+                        window.open("https://www.wearethreaded.org");
                       }}
                       className="text-sm link"
-                      href=""
                     >
                       www.wearethreaded.org
                     </a>
@@ -176,9 +175,8 @@ const MainCards: React.FC = () => {
                         window.open("https://c3consults.com/");
                       }}
                       className="text-sm link"
-                      href=""
                     >
-                      https://c3consults.com/
+                      c3consults.com
                     </a>
                   </div>
                   <div>
@@ -199,10 +197,9 @@ const MainCards: React.FC = () => {
                     </p>
                     <a
                       onClick={() => {
-                        window.open("www.embracingracialunity.org");
+                        window.open("https://www.embracingracialunity.org");
                       }}
                       className="text-sm link"
-                      href=""
                     >
                       www.embracingracialunity.org
                     </a>
