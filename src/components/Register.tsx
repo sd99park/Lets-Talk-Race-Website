@@ -81,7 +81,7 @@ const Register: React.FC = () => {
         </div>
 
         <iframe
-          src="https://docs.google.com/forms/d/e/1FAIpQLSfOUQ7ykO40bFhYqEq_0T723I03tvBMi67xCtp4eWoBbX0K4g/viewform?embedded=true"
+          src="https://docs.google.com/forms/d/e/1FAIpQLSesObwdhlnFHqlkj9HV2Gu220Ff_WUJBO-mDleInEeJ3Dt5_A/viewform?embedded=true"
           width="640"
           height="2076"
         >
