@@ -196,20 +196,6 @@ const Week3: React.FC = () => {
           </a>
         </p>
 
-        <p className="hw-obj-title">
-          Dr. Michael Brown talks White Fragility (5 min)
-        </p>
-        <p className="hw-obj-descr">
-          <a
-            onClick={() => {
-              window.open("https://youtu.be/U0E7DWDBDJg");
-            }}
-            href=""
-          >
-            https://youtu.be/U0E7DWDBDJg
-          </a>
-        </p>
-
         <p className="hw-obj-title">Systemic Racism Explained (4 min)</p>
         <p className="hw-obj-descr">
           <a
