@@ -15,6 +15,7 @@ import Week4 from "./components/Homework/HW Pages/Week4";
 import Week5 from "./components/Homework/HW Pages/Week5";
 import IntroResources from "./components/Homework/HW Pages/IntroResources";
 import ClassPrework from "./components/Homework/HW Pages/ClassPrework";
+import DonationPolicy from "./components/DonationPolicy";
 
 const App: React.FC = () => {
   return (
@@ -34,6 +35,7 @@ const App: React.FC = () => {
           <Route path="/Homework/Week3" element={<Week3 />} />
           <Route path="/Homework/Week4" element={<Week4 />} />
           <Route path="/Homework/Week5" element={<Week5 />} />
+          <Route path="/DonationPolicy" element={<DonationPolicy />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />

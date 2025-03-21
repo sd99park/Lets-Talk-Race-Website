@@ -4,8 +4,11 @@ import Interview from "./Interview";
 
 import "./MainPage.css";
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const MainPage: React.FC = () => {
+  const navigate = useNavigate();
+
   return (
     <>
       <div className="main-page-container">
@@ -33,6 +36,33 @@ const MainPage: React.FC = () => {
           </p>
         </div>
         <Interview />
+        <div className="bg-gray-100 p-4 rounded-lg text-sm text-gray-700 ml-28 mr-28 mb-4">
+          <p>
+            LTR Ministries, Inc. is a 501(c)(3) organization and makes every
+            effort to ensure accurate reporting of your donations so that we can
+            supply you with necessary tax documentation. If the information you
+            receive from our office does not match your records, or if you fail
+            to receive the needed documentation, please email us at:{" "}
+            <a
+              href="mailto:admin@ltrministries.com"
+              className="text-secondary hover:underline"
+            >
+              admin@ltrministries.com
+            </a>
+          </p>
+          <a
+            onClick={() => {
+              navigate("/DonationPolicy");
+              window.scrollTo(0, 0);
+            }}
+            className="text-secondary hover:underline mt-2 block"
+          >
+            Click here to read our donation and gift acceptance policy.
+          </a>
+          <p className="mt-2">
+            Thank you for your support of LTR Ministries, Inc.
+          </p>
+        </div>
       </div>
     </>
   );
