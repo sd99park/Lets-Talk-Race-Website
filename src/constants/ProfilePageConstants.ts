@@ -71,3 +71,16 @@ export const OW_bio1 =
 
 export const OW_bio2 =
   "Oric is passionate about leadership development and community involvement. He has served on company and industry committees such as the Atmos Energy Culture Council, City of Dallas Economic Development Taskforce, Southern Gas Association Growth and Retention Committee, Junior League of Dallas Community Advisory Board, Dallas Regional Chamber Infrastructure Taskforce Co-Chair and United to Learn Advisory Council. He also volunteers his time on the Board of Trustees for the African American Museum in Dallas. Oric holds a Bachelor of Science degree in Business Management from the University of Phoenix. Oric is married to Omega and they have four children, Oric, Jr., Omari, O'Neicia, and O'Neethia.";
+
+export const CP_name = "Collin Packer";
+
+export const CP_title = "Director of Strategic Development";
+
+export const CP_descr =
+  "Collin received his Bachelor of Arts in Christian Ministry and Master of Divinity from Abilene Christian...";
+
+export const CP_bio1 =
+  "Collin received his Bachelor of Arts in Christian Ministry and Master of Divinity from Abilene Christian University. He then served as the Lead Minister for prominent Churches of Christ in Littleton, Colorado and Allen, Texas. As his calling evolved, Collin has served as the Director of Faith-Based Partnerships for CitySquare, a Dallas-based poverty-fighting nonprofit, as the Communications Director for State Representative Carl Sherman Sr. during Texas’s 88 th Legislative Session, and as a Scholar in Residence at the Siburt Institute for Church Ministry at Abilene Christian University. Collin also serves as the Co-Chair for MARCH (Ministry for Awareness, Relationships, Change & Healing), a Dallas-based multiracial group of Christians who work to manifest the gospel through love, peace, and justice.";
+
+export const CP_bio2 =
+  "He and his wife, Holly, are high school sweethearts. They were married in 2004 and have three children: Maddox, Addison, and Brooklyn. Though his family and passion for justice are his first loves, Collin enjoys golfing, reading, and avidly following Dallas’s Big 4 teams: the Rangers,Cowboys, Stars, and Mavericks.";

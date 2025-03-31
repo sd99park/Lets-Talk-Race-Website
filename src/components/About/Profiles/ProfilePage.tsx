@@ -4,6 +4,7 @@ import JH from "../../../img/JH_Headshot.jpg";
 import OW from "../../../img/OW_Headshot.jpeg";
 import PA from "../../../img/PA_Headshot.jpg";
 import SH from "../../../img/SH_Headshot.jpg";
+import CP from "../../../img/CP_Headshot.jpg";
 
 import * as constants from "../../../constants/ProfilePageConstants";
 
@@ -30,6 +31,14 @@ const ProfilePage: React.FC = () => {
           bio1={constants.DP_bio1}
           bio2={constants.DP_bio2}
           summary={constants.DP_descr}
+        />
+        <ProfileCard
+          image={CP}
+          name={constants.CP_name}
+          title={constants.CP_title}
+          bio1={constants.CP_bio1}
+          bio2={constants.CP_bio2}
+          summary={constants.CP_descr}
         />
         <ProfileCard
           image={PA}
