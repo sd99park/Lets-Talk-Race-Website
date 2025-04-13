@@ -12,7 +12,7 @@ const Interview: React.FC = () => {
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/x0CR86olpH8?si=QdhSRwXB7OSEyiHJ"
+          src="https://www.youtube.com/embed/WXTBF0UwMg0?si=KtIqslpNO6xGlPSs"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen={true}
